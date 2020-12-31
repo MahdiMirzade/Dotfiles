@@ -38,8 +38,8 @@ battery all {
         format = " %status %percentage "
         status_chr = "⚡️ CHR"
         status_bat = " BTR"
-        status_unk = "❓UNK"
-        status_full = " FUL"
+        status_unk = "? UNK"
+        status_full = "☻ FULL"
         low_threshold = 15
         integer_battery_capacity = true
 }
