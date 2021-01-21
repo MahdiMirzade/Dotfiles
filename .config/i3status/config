@@ -1,0 +1,55 @@
+general {
+        colors = false
+        interval = 5
+}
+
+#order += "load"
+order += "disk /"
+#order += "disk /home"
+#order += "wireless _first_"
+#order += "ethernet _first_"
+order += "battery all"
+order += "volume all"
+order += "tztime local"
+
+load {
+        format = "   %1min "
+}
+
+disk "/" {
+        format = "  %avail "
+}
+
+disk "/home" {
+        format = "  %avail "
+}
+
+wireless _first_ {
+        format_up = "  %essid "
+        format_down = " ✖️ Down "
+}
+
+ethernet _first_ {
+        format_up =  "  %ip "
+        format_down = " ✖️ Down "
+}
+
+battery all {
+        format = " %status %percentage "
+        status_chr = "⚡️ CHR"
+        status_bat = " BTR"
+        status_unk = "? UNK"
+        status_full = "☻ FULL"
+        low_threshold = 15
+        integer_battery_capacity = true
+}
+
+volume all {
+        format = " 🔊 %volume "
+        format_muted = " 🔈 Muted "
+        device = "default"
+}
+
+tztime local {
+        format = " 🕒 %I:%M %p "
+}
