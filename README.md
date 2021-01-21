@@ -102,7 +102,7 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 ## Qute Browser
 
-<img src="assets/qutebrowser.svg" alt="QuteBrowser Icon" width="100" height="100">
+<img src="assets/qutebrowser.gif" alt="QuteBrowser Icon" width="512" height="288">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
