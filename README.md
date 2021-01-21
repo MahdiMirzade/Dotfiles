@@ -72,6 +72,8 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 ## ZSH
 
+<img src="assets/ohmyzsh.png" alt="Oh-My-Zsh Icon" width="50" height="50">
+
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
 **Installation**
@@ -100,7 +102,7 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 ## Qute Browser
 
-<img src="assets/qute.svg" alt="Xorg Icon" width="50" height="50">
+<img src="assets/qutebrowser.svg" alt="QuteBrowser Icon" width="50" height="50">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
