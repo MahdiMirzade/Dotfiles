@@ -3,7 +3,7 @@ config.set("colors.webpage.darkmode.enabled", True)
 config.set("auto_save.session", True)
 config.set("zoom.default", "75%")
 
-# Credits to base16-qutebrowser (https://github.com/theova/base16-qutebrowser) for awesome theme colors <3
+# Credits to base16-qutebrowser (https://github.com/theova/base16-qutebrowser) for the awesome theme <3
 
 # Basic Colors
 base00 = "#1d2021"
