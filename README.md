@@ -11,11 +11,13 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 | Window Manager        | [i3](#i3)                     |
 | Display Manager       | [LightDM](#lightdm)           |
 | Terminal              | [Kitty](#kitty)               |
+| Shell                 | [ZSH](#zsh)                   |
 | File Manager          | [Thunar](#thunar)             |
 | Internet Browser      | [QuteBrowser](#qute-browser)  |
-| Shell                 | ZSH                           |
+
 
 ## Xorg
+<img src="assets/xorg.png" alt="Xorg Icon">
 
 [Xorg](https://x.org) is the most popular display server.
 
