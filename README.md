@@ -19,7 +19,6 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 [Xorg](https://x.org) is the most popular display server.
 
 Installation
-============
 
 `pacman -S xorg`
 
@@ -28,12 +27,10 @@ Installation
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
 Installation
-============
 
 `pacman -S i3-wm`
 
 Configuration
-=============
 
 `./config/i3/install`
 
@@ -44,12 +41,10 @@ Configuration
 I use *lightdm-gtk-greeter* as my greeter.
 
 Installation
-============
 
 `pacman -S lightdm lightdm-gtk-greeter`
 
 Configuration
-=============
 
 `sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf`
 
@@ -59,7 +54,6 @@ Configuration
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
 Installation
-============
 
 `pacman -S thunar`
 
@@ -68,11 +62,9 @@ Installation
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
 Installation
-============
 
 `pacman -S qutebrowser`
 
 Configuration
-=============
 
 `./config/qutebrowser/install`
