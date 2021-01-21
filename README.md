@@ -18,7 +18,7 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 
 ## Xorg
 
-<img src="assets/xorg.gif" alt="Xorg Icon" width="512" height="194">
+<img src="assets/xorg.gif" alt="Xorg Icon" width="512" height="122">
 
 [Xorg](https://x.org) is the most popular display server.
 
