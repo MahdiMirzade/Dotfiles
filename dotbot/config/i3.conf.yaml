@@ -7,8 +7,6 @@
 - clean: ['~']
 
 - link:
-    ~/.config/qutebrowser/config.py:
-      path: ../config/qutebrowser/config.py
     ~/.config/i3/config:
       path: ../config/i3/config
     ~/.config/i3status/config:
