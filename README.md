@@ -42,7 +42,7 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 
 ## LightDM
 
-<img src="assets/lightdm.png" alt="LightDM Login Page" width="50" height="50">
+<img src="assets/lightdm.png" alt="LightDM Login Page" width="70.4" height="52.5">
 
 [LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
 
