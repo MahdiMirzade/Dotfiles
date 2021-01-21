@@ -20,7 +20,7 @@ i3 is a tiling window manager and I use it as my daily WM.
 
 ### Installation
 
-**$ **`pacman -S i3-wm`
+$ `pacman -S i3-wm`
 
 ## Qute Browser
 
@@ -28,4 +28,4 @@ idk I will make the doc later too :C
 
 ### Installation
 
-**$ **`pacman -S qutebrowser`
+$ `pacman -S qutebrowser`
