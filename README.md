@@ -61,6 +61,24 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 `./config/kitty/install`
 
+## ZSH
+
+[Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
+
+**Installation**
+
+`pacman -S zsh`
+
+**Configuration**
+
+Change your default shell:
+
+`chsh -s /bin/zsh`
+
+I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
 ## Thunar
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
