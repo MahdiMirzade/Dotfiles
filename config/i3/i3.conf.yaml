@@ -7,10 +7,10 @@
 - clean: ['~']
 
 - link:
-    ~/.config/kitty/kitty.conf:
-      path: ../config/kitty/kitty.conf
-    ~/.config/kitty/color.conf:
-      path: ../config/kitty/color.conf
+    ~/.config/i3/config:
+      path: config
+    ~/.config/i3status/config:
+      path: ../i3status/config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

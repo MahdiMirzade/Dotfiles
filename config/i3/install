@@ -2,7 +2,7 @@
 
 set -e
 
-CONFIG="../../dotbot/config/i3.conf.yaml"
+CONFIG="i3.conf.yaml"
 DOTBOT_DIR="../../dotbot"
 
 DOTBOT_BIN="bin/dotbot"

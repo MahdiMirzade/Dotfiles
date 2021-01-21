@@ -8,11 +8,15 @@
 
 - link:
     ~/.config/qutebrowser/config.py:
-      path: ../config/qutebrowser/config.py
+      path: config/qutebrowser/config.py
     ~/.config/i3/config:
-      path: ../config/i3/config
+      path: config/i3/config
     ~/.config/i3status/config:
-      path: ../config/i3status/config
+      path: config/i3status/config
+    ~/.config/kitty/kitty.conf:
+      path: config/kitty/kitty.conf
+    ~/.config/kitty/color.conf:
+      path: config/kitty/color.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

@@ -7,10 +7,8 @@
 - clean: ['~']
 
 - link:
-    ~/.config/i3/config:
-      path: ../config/i3/config
-    ~/.config/i3status/config:
-      path: ../config/i3status/config
+    ~/.config/qutebrowser/config.py:
+      path: config.py
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

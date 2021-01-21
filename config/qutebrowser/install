@@ -2,7 +2,7 @@
 
 set -e
 
-CONFIG="../../dotbot/config/qutebrowser.conf.yaml"
+CONFIG="qutebrowser.conf.yaml"
 DOTBOT_DIR="../../dotbot"
 
 DOTBOT_BIN="bin/dotbot"
