@@ -6,13 +6,21 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 
 | Name                  | Value                         |
 | --------------------- | ----------------------------- |
-| Graphical Server      | Xorg                          |
+| Graphical Server      | [Xorg](#xorg)                 |
 | Desktop Environment   | *None*                        |
 | Window Manager        | [i3](#i3)                     |
-| Display Manager       | LightDM                       |
-| File Manager          | Thunar                        |
+| Display Manager       | [LightDM](#lightdm)           |
+| File Manager          | [Thunar](#thunar)             |
 | Internet Browser      | [QuteBrowser](#qute-browser)  |
 | Shell                 | ZSH                           |
+
+## Xorg
+
+[Xorg](https://x.org) is the most popular display server.
+
+### Installation
+
+`pacman -S xorg`
 
 ## i3
 
@@ -25,6 +33,29 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 ### Configuration
 
 `./config/i3/install`
+
+## LightDM
+
+[LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
+
+I use *lightdm-gtk-greeter* as my greeter.
+
+### Installation
+
+`pacman -S lightdm lightdm-gtk-greeter`
+
+### Configuration
+
+`sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf`
+
+
+## Thunar
+
+[Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
+
+### Installation
+
+`pacman -S thunar`
 
 ## Qute Browser
 
