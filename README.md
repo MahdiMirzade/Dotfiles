@@ -72,7 +72,7 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 ## ZSH
 
-<img src="assets/ohmyzsh.png" alt="Oh-My-Zsh Icon" width="50" height="50">
+<img src="assets/ohmyzsh.png" alt="Oh-My-Zsh Icon" width="84.25" height="52">
 
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
