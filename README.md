@@ -8,15 +8,15 @@ idk i will complete this later
 
 ### Installation
 
-`pacman -S i3wm`
-`dnf install i3`
-`apt install i3`
+- Arch `pacman -S i3wm`
+- RPM `dnf install i3`
+- Deb `apt install i3`
 
 ## Qute Browser
 
 idk I will make the doc later too :C
 
 ### Installation
-`pacman -S qutebrowser`
-`dnf install qutebrowser`
-`apt install qutebrowser`
+- Arch `pacman -S qutebrowser`
+- RPM `dnf install qutebrowser`
+- Deb `apt install qutebrowser`
