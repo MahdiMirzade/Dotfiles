@@ -58,7 +58,7 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 ## Kitty
 
-<img src="assets/kitty.png" alt="Kitty Icon" width="100" height="100">
+<img src="assets/kitty.gif" alt="Kitty Icon" width="512" height="380">
 
 [kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
