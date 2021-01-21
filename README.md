@@ -92,7 +92,7 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 ## Thunar
 
-<img src="assets/thunar.png" alt="Thunar Icon" width="100" height="100">
+<img src="assets/thunar.gif" alt="Thunar Icon" width="512" height="288">
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
