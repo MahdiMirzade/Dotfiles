@@ -28,7 +28,7 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 
 ## i3
 
-<img src="assets/i3.gif" alt="i3 Icon" width="256" height="144">
+<img src="assets/i3.gif" alt="i3 Icon" width="512" height="288">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
