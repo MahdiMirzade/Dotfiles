@@ -18,7 +18,7 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 
 ## Xorg
 
-<img src="assets/xorg.gif" alt="Xorg Icon" width="512" height="122">
+<img src="assets/xorg.gif" alt="Xorg Gif" width="512" height="122">
 
 [Xorg](https://x.org) is the most popular display server.
 
@@ -28,7 +28,7 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 
 ## i3
 
-<img src="assets/i3.gif" alt="i3 Icon" width="512" height="288">
+<img src="assets/i3.gif" alt="i3 Gif" width="512" height="288">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
@@ -58,7 +58,7 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 ## Kitty
 
-<img src="assets/kitty.gif" alt="Kitty Icon" width="512" height="380">
+<img src="assets/kitty.gif" alt="Kitty Gif" width="512" height="380">
 
 [kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
@@ -72,7 +72,7 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 ## ZSH
 
-<img src="assets/zsh.png" alt="Oh-My-Zsh Icon" width="100" height="100">
+<img src="assets/zsh.gif" alt="ZSH Gif" width="512" height="341">
 
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
