@@ -8,7 +8,9 @@ idk i will complete this later
 
 ### Installation
 
-| Arch Linux    | `pacman -S i3-wm`  |
+| Distribution  | Command           |
+| ------------- | ----------------- |
+| Arch Linux    | `pacman -S i3-wm` |
 | Red Hat       | `dnf install i3`  |
 | Debian        | `apt install i3`  |
 
@@ -18,6 +20,8 @@ idk I will make the doc later too :C
 
 ### Installation
 
+| Distribution  | Command                   |
+| ------------- | ------------------------- |
 | Arch Linux    | `pacman -S qutebrowser`   |
 | Red Hat       | `dnf install qutebrowser` |
 | Debian        | `apt install qutebrowser` |
