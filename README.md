@@ -17,7 +17,8 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 
 
 ## Xorg
-<img src="assets/xorg.png" alt="Xorg Icon">
+
+<img src="assets/xorg.png" alt="Xorg Icon" width="50" height="50">
 
 [Xorg](https://x.org) is the most popular display server.
 
@@ -26,6 +27,8 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 `pacman -S xorg`
 
 ## i3
+
+<img src="assets/i3.png" alt="i3 Icon" width="50" height="50">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
@@ -38,6 +41,8 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 `./config/i3/install`
 
 ## LightDM
+
+<img src="assets/lightdm.png" alt="LightDM Login Page" width="50" height="50">
 
 [LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
 
@@ -52,6 +57,8 @@ I use *lightdm-gtk-greeter* as my greeter.
 `sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf`
 
 ## Kitty
+
+<img src="assets/kitty.png" alt="Kitty Icon" width="50" height="50">
 
 [kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
@@ -83,6 +90,8 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 ## Thunar
 
+<img src="assets/thunar.png" alt="Thunar Icon" width="50" height="50">
+
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
 **Installation**
@@ -90,6 +99,8 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 `pacman -S thunar`
 
 ## Qute Browser
+
+<img src="assets/qute.svg" alt="Xorg Icon" width="50" height="50">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
