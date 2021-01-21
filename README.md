@@ -10,6 +10,7 @@ These files are optimized for me, if you did enjoy, help me improve this reposit
 | Desktop Environment   | *None*                        |
 | Window Manager        | [i3](#i3)                     |
 | Display Manager       | [LightDM](#lightdm)           |
+| Terminal              | [Kitty](#kitty)               |
 | File Manager          | [Thunar](#thunar)             |
 | Internet Browser      | [QuteBrowser](#qute-browser)  |
 | Shell                 | ZSH                           |
@@ -48,6 +49,17 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 `sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf`
 
+## Kitty
+
+[kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
+
+**Installation**
+
+`pacman -S kitty`
+
+**Configuration**
+
+`./config/kitty/install`
 
 ## Thunar
 
