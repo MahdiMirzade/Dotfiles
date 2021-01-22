@@ -40,7 +40,7 @@ These files are optimized for me (as a desktop user), if you did enjoy, help me 
 
 `./config/i3/install`
 
-[Documentation](/tree/main/config/i3)
+[Documentation](/config/i3)
 
 ## LightDM
 
@@ -72,7 +72,7 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 `./config/kitty/install`
 
-[Documentation](/tree/main/config/kitty)
+[Documentation](/config/kitty)
 
 ## ZSH
 
