@@ -1,5 +1,11 @@
 # i3
 
+## Headers
+- [i3 ScreenShots](#screenshots)
+- [i3 CheatSheet](#cheatsheet)
+- [.config/i3/config](#configi3config)
+- [.config/i3status/config](#configi3statusconfig)
+
 ## ScreenShots
 
 <img src="img/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
