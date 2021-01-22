@@ -170,7 +170,6 @@ color7  #bfbfb8
 color15 #ebece6
 ```
 
-
 **Short Links**
 - [Main Menu](./../../../../)
 - [Back to Config Dir](./../)

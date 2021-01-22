@@ -1,4 +1,4 @@
-# i3 docs
+# i3 Docs
 
 [i3](https://i3wm.org) is a tiling window manager which I use everyday.
 
@@ -90,7 +90,7 @@ bindsym XF86AudioPrev exec --no-startup-id "mpc prev"
 
 ## .config/i3status/config
 
-Default settings:
+**Default settings:**
 ```
 #order += "load"
 order += "disk /"
@@ -102,7 +102,7 @@ order += "volume all"
 order += "tztime local"
 ```
 
-Commenting modules will disable them:
+**Commenting modules will disable them:**
 ```
 order += "disk /"
 ->
@@ -111,7 +111,7 @@ order += "disk /"
 @ Disabled 'remaining available disk' module
 ```
 
-Commenting modules will enable them:
+**Commenting modules will enable them:**
 ```
 #order += "load"
 ->
