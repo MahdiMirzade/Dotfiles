@@ -11,8 +11,8 @@ $ pacman -S xorg lightdm lightdm-gtk-greeter i3-wm kitty zsh thunar qutebrowser
 
 **Clone this repo and do configuration**
 ```
-$ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf
+$ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./install
 ```
 
