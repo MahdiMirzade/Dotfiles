@@ -1,6 +1,5 @@
 # i3
 
-
 ## ScreenShots
 
 <img src="img/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
@@ -47,3 +46,64 @@
 | Super + PrtSc     | Capturing Focused Window's Screen     |
 
 > Custom Keybinds
+
+## .config/i3/config
+
+I have done some extra configuration on my keyboard:
+
+**Adjust Volume** : I use pactl[(PulseAudio)](https://en.wikipedia.org/wiki/PulseAudio) to change my volume.
+```
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+```
+
+**Adjust Brightness** : I use [light](github.com/haikarainen/light) for changing brightness.
+```
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10%
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10%
+```
+
+**Control Music** : I use [mpc](https://wiki.archlinux.org/index.php/Music_Player_Daemon) to take control:
+```
+bindsym XF86AudioPlay exec --no-startup-id "mpc toggle"
+bindsym XF86AudioNext exec --no-startup-id "mpc next"
+bindsym XF86AudioPrev exec --no-startup-id "mpc prev"
+```
+
+## .config/i3status/config
+
+Default settings:
+```
+#order += "load"
+order += "disk /"
+#order += "disk /home"
+#order += "wireless _first_"
+#order += "ethernet _first_"
+order += "battery all"
+order += "volume all"
+order += "tztime local"
+```
+
+Commenting modules will disable them:
+```
+order += "disk /"
+->
+#order += "disk /"
+
+@ Disabled 'remaining available disk' module
+```
+
+Commenting modules will enable them:
+```
+#order += "load"
+->
+order += "load"
+
+@ Enabled 'load average' module
+```
+
+**Short Links**
+- [Main Menu](https://github.com/mahdymirzade/dotfiles)
+- [Back to Configs](https://github.com/mahdymirzade/dotfiles/tree/main/config)

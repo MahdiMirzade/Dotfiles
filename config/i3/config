@@ -35,6 +35,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10%
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10%
 
+# Music Control CLI
+bindsym XF86AudioPlay exec --no-startup-id "mpc toggle"
+bindsym XF86AudioNext exec --no-startup-id "mpc next"
+bindsym XF86AudioPrev exec --no-startup-id "mpc prev"
+
 # Drag floating windows using $mod+Mouse
 floating_modifier $mod
 
