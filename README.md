@@ -40,7 +40,7 @@ These files are optimized for me (as a desktop user), if you did enjoy, help me 
 
 `./config/i3/install`
 
-[Documentation](tree/main/config/i3)
+[Documentation](/tree/main/config/i3)
 
 ## LightDM
 
@@ -72,7 +72,7 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 `./config/kitty/install`
 
-[Documentation](tree/main/config/kitty)
+[Documentation](/tree/main/config/kitty)
 
 ## ZSH
 
@@ -118,7 +118,7 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 `./config/qutebrowser/install`
 
-[Documentation](tree/main/config/qutebrowser)
+[Documentation](/tree/main/config/qutebrowser)
 
 ## Donate
 
