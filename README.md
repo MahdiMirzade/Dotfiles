@@ -118,7 +118,7 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 `./config/qutebrowser/install`
 
-[Documentation](./tree/main/config/qutebrowser)
+[Documentation](/config/qutebrowser)
 
 ## Donate
 
