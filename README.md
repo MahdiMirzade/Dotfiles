@@ -2,6 +2,26 @@
 
 These files are optimized for me (as a desktop user), if you did enjoy, help me improve this repository by pull requests or maybe [donating](#donate).
 
+## Full Installation
+
+**Installing all requirements in arch linux for GUI**
+```
+$ pacman -S xorg lightdm lightdm-gtk-greeter i3-wm kitty zsh thunar qutebrowser
+```
+
+**Clone this repo and do configuration**
+```
+$ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
+$ sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf
+$ ./install
+```
+
+**Enable GUI**:
+```
+$ systemctl enable lightdm
+$ systemctl start lightdm - if lightdm didn't start
+```
+
 ## Details
 
 | Name                  | Value                         |
@@ -24,7 +44,7 @@ These files are optimized for me (as a desktop user), if you did enjoy, help me 
 
 **Installation**
 
-`pacman -S xorg`
+`$ pacman -S xorg`
 
 ## i3
 
@@ -34,11 +54,11 @@ These files are optimized for me (as a desktop user), if you did enjoy, help me 
 
 **Installation**
 
-`pacman -S i3-wm`
+`$ pacman -S i3-wm`
 
 **Configuration**
 
-`./config/i3/install`
+`$ ./config/i3/install`
 
 [Documentation](/config/i3)
 
@@ -52,11 +72,11 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 **Installation**
 
-`pacman -S lightdm lightdm-gtk-greeter`
+`$ pacman -S lightdm lightdm-gtk-greeter`
 
 **Configuration**
 
-`sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf`
+`$ sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf`
 
 ## Kitty
 
@@ -66,11 +86,11 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 **Installation**
 
-`pacman -S kitty`
+`$ pacman -S kitty`
 
 **Configuration**
 
-`./config/kitty/install`
+`$ ./config/kitty/install`
 
 [Documentation](/config/kitty)
 
@@ -82,17 +102,17 @@ I use *lightdm-gtk-greeter* as my greeter.
 
 **Installation**
 
-`pacman -S zsh`
+`$ pacman -S zsh`
 
 **Configuration**
 
 Change your default shell:
 
-`chsh -s /bin/zsh`
+`$ chsh -s /bin/zsh`
 
 I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+`$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 ## Thunar
 
@@ -102,7 +122,7 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 **Installation**
 
-`pacman -S thunar`
+`$ pacman -S thunar`
 
 ## Qute Browser
 
@@ -112,11 +132,11 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 **Installation**
 
-`pacman -S qutebrowser`
+`$ pacman -S qutebrowser`
 
 **Configuration**
 
-`./config/qutebrowser/install`
+`$ ./config/qutebrowser/install`
 
 [Documentation](/config/qutebrowser)
 
