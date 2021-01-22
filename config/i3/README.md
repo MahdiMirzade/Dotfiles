@@ -38,3 +38,12 @@
 | Super + Shift + 1-9       | Move Focused Window to Workspace 1-9          |
 | Super + Shift + R         | Restart i3 Window Manager                     |
 | Super + Shift + E         | Exit i3 Window Manager                        |
+
+> Window Management Keybinds
+
+| Key               | Functionality                         |
+| ----------------- | ------------------------------------- |
+| PrtSc             | Capturing Screen Shot *Using scrot*   |
+| Super + PrtSc     | Capturing Focused Window's Screen     |
+
+> Custom Keybinds

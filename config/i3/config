@@ -49,6 +49,8 @@ bindsym $mod+z exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9'"
 bindsym $mod+Shift+z exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
 
 # Custom keybinds
+bindsym Print exec "scrot"
+bindsym $mod+Print exec "scrot -u"
 
 # Change focus
 bindsym $mod+j focus left
