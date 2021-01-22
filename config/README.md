@@ -4,7 +4,7 @@ In this area you can easily find out about each application, its documantation a
 
 For full documantation you should refer to each program's own directory and read "README.md" of them.
 
-Use *short links* for a fast way to go to your destination.
+Use *short links* for a fast way for going to your destination.
 
 **Short Links**
 - [Main Menu](https://github.com/mahdymirzade/dotfiles)
