@@ -6,4 +6,4 @@ No worries you can ignore this directory with any problem.
 
 **Short Links**
 
-- [Main Menu](https://github.com/mahdymirzade/dotfiles)
+- [Main Menu](./../../../)

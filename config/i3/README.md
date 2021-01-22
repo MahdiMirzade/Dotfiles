@@ -120,5 +120,5 @@ order += "load"
 ```
 
 **Short Links**
-- [Main Menu](https://github.com/mahdymirzade/dotfiles)
-- [Back to Config Dir](https://github.com/mahdymirzade/dotfiles/tree/main/config)
+- [Main Menu](./../../../../)
+- [Back to Config Dir](./../)
