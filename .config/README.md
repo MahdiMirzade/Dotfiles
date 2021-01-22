@@ -6,6 +6,6 @@ So it means there are other files than pure configurations in _config_ directory
 
 Note that **installation commands** that were brought to you in main _README.md_ will make you the same files as here in this directory for your own _.config_ directory which means you can use both of them.
 
-Short Links
-===========
+**Short Links**
+
 - [Main Menu](https://github.com/mahdymirzade/dotfiles)

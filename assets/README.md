@@ -4,6 +4,6 @@ This area is for the stuff like screenshots, gifs or other stuff that will help 
 
 No worries you can ignore this directory with any problem.
 
-Short Links
-===========
-- [Main Menu](../)
+**Short Links**
+
+- [Main Menu](https://github.com/mahdymirzade/dotfiles)
