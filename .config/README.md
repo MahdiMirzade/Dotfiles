@@ -1,4 +1,4 @@
-# '.config' folder?
+# Looking for '.config' folder?
 
 In case if you were wondering, I made my config files setup with [dotbot](https://github.com/anishathalye/dotbot) and have done documentations on each program.
 
