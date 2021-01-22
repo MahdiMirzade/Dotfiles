@@ -120,6 +120,13 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 
 [Documentation](/config/qutebrowser)
 
+## ToDO
+
+- [ ] Writing docs for configs.
+- [ ] Change GIFs and JPGs of docs.
+- [ ] Make introduction video about this repo.
+- [ ] Threaten people to star this page on github.
+
 ## Donate
 
 Made with <3 by **Mahdy Mirzade**
