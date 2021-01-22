@@ -1,4 +1,4 @@
-# i3
+# i3 docs
 
 [i3](https://i3wm.org) is a tiling window manager which I use everyday.
 
