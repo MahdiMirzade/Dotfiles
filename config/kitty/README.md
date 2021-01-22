@@ -2,6 +2,13 @@
 
 kitty is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.
 
+## Headers
+- [Install + Config](#installation)
+- [Kitty CheatSheet](#cheatsheet)
+- [.config/kitty/kitty.conf](#configkittykittyconf)
+- [.config/kitty/color.conf](#configkittycolorconf)
+
+
 ## Installation
 
 ```
@@ -9,11 +16,6 @@ $ pacman -S kitty
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/kitty/install
 ```
-
-## Headers
-- [Kitty CheatSheet](#cheatsheet)
-- [.config/kitty/kitty.conf](#configkittykittyconf)
-- [.config/kitty/color.conf](#configkittycolorconf)
 
 ## CheatSheet
 

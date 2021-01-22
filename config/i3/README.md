@@ -2,18 +2,19 @@
 
 [i3](https://i3wm.org) is a tiling window manager which I use everyday.
 
+## Headers
+- [Install + Config](#installation)
+- [i3 ScreenShots](#screenshots)
+- [i3 CheatSheet](#cheatsheet)
+- [.config/i3/config](#configi3config)
+- [.config/i3status/config](#configi3statusconfig)
+
 ## Installation
 ```
 $ pacman -S i3-wm
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/i3/install
 ```
-
-## Headers
-- [i3 ScreenShots](#screenshots)
-- [i3 CheatSheet](#cheatsheet)
-- [.config/i3/config](#configi3config)
-- [.config/i3status/config](#configi3statusconfig)
 
 ## ScreenShots
 
