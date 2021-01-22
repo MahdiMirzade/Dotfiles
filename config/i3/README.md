@@ -17,19 +17,21 @@ $ ./config/i3/install
 
 ## ScreenShots
 
-<img src="img/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
-
 > Clean Interview without any opened windows. *[only i3status & nm-applet]*
 
-<img src="img/i3.rofi.png" alt="i3 with rofi launcher" width="512" height="288">
+<img src="img/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
 
 > Launching apps with rofi
 
+<img src="img/i3.rofi.png" alt="i3 with rofi launcher" width="512" height="288">
+
+> Using [i3status](https://github.com/mahdymirzade/dotfiles/tree/main/config/i3status) as panel
+
 <img src="img/i3.status.png" alt="i3 status bar" width="512" height="200">
 
-> Using [i3status](https://github.com/mahdymirzade/dotfiles/tree/main/config/i3status) as your panel
-
 ## CheatSheet
+
+> Window Management Keybinds
 
 | Key                       | Functionality                                 |
 | ------------------------- | --------------------------------------------- |
@@ -53,14 +55,12 @@ $ ./config/i3/install
 | Super + Shift + R         | Restart i3 Window Manager                     |
 | Super + Shift + E         | Exit i3 Window Manager                        |
 
-> Window Management Keybinds
+> Custom Keybinds
 
 | Key               | Functionality                         |
 | ----------------- | ------------------------------------- |
 | PrtSc             | Capturing Screen Shot *Using scrot*   |
 | Super + PrtSc     | Capturing Focused Window's Screen     |
-
-> Custom Keybinds
 
 ## .config/i3/config
 

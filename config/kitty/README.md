@@ -1,6 +1,6 @@
 # Kitty Docs
 
-kitty is highly customizable, everything from keyboard shortcuts, to painting frames-per-second. See below for an overview of all customization possibilities.
+kitty is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.
 
 ## Installation
 
@@ -17,13 +17,15 @@ $ ./config/kitty/install
 
 ## CheatSheet
 
+> Clipboard
+
 | Key                       | Functionality                     |
 | ------------------------- | --------------------------------- |
 | Ctrl + Shift + C          | Copy to Clipboard                 |
 | Ctrl + Shift + V          | Paste from Clipboard              |
 | Ctrl + Shift + S          | Paste from Selection              |
 
-> Clipboard
+> Scrolling
 
 | Key                       | Functionality                     |
 | ------------------------- | --------------------------------- |
@@ -33,7 +35,7 @@ $ ./config/kitty/install
 | Ctrl + Shift + End        | Scroll to Bottom                  |
 | Ctrl + Shift + H          | Browse scrollback buffer in less  |
 
-> Scrolling
+> Window Management
 
 | Key                       | Functionality                     |
 | ------------------------- | --------------------------------- |
@@ -47,7 +49,7 @@ $ ./config/kitty/install
 | Ctrl + Shift + R          | Resizing Mode                     |
 | Ctrl + Shift + 1-9        | Switch to Window 1-9              |
 
-> Window Management
+> Tab Management
 
 | Key                       | Functionality                     |
 | ------------------------- | --------------------------------- |
@@ -59,15 +61,13 @@ $ ./config/kitty/install
 | Ctrl + Shift + ,          | Move Tab - Backward               |
 | Ctrl + Alt + 1-9          | Switch to Tab 1-9                 |
 
-> Tab Management
+> Font sizes
 
 | Key                       | Functionality                     |
 | ------------------------- | --------------------------------- |
 | Ctrl + Shift + [+]        | Increase font size                |
 | Ctrl + Shift + [-]        | Decrease font size                |
 | Ctrl + Shift + BackSpace  | Reset font size                   |
-
-> Font sizes
 
 ## .config/kitty/kitty.conf
 
