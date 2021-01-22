@@ -40,6 +40,8 @@ These files are optimized for me (as a desktop user), if you did enjoy, help me 
 
 `./config/i3/install`
 
+[Documentation](tree/main/config/i3)
+
 ## LightDM
 
 <img src="assets/lightdm.gif" alt="LightDM Login" width="512" height="320">
@@ -69,6 +71,8 @@ I use *lightdm-gtk-greeter* as my greeter.
 **Configuration**
 
 `./config/kitty/install`
+
+[Documentation](tree/main/config/kitty)
 
 ## ZSH
 
@@ -113,6 +117,8 @@ I use oh-my-zsh as well: *(No Configuration On Oh-My-Zsh)*
 **Configuration**
 
 `./config/qutebrowser/install`
+
+[Documentation](tree/main/config/qutebrowser)
 
 ## Donate
 
