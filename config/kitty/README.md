@@ -1,8 +1,6 @@
 # Kitty Docs
-
-[Kitty](https://sw.kovidgoyal.net/kitty) is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.
-
-[Original Documentation](https://sw.kovidgoyal.net/kitty/conf.html)
+[Kitty](https://sw.kovidgoyal.net/kitty) is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.<br/>
+[Main Documentation](https://sw.kovidgoyal.net/kitty/conf.html)
 
 ## Headers
 - [Install + Config](#installation)
@@ -12,7 +10,6 @@
 
 
 ## Installation
-
 ```
 $ pacman -S kitty
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
@@ -20,7 +17,6 @@ $ ./config/kitty/install
 ```
 
 ## CheatSheet
-
 > Clipboard
 
 | Key                       | Functionality                     |
@@ -74,7 +70,6 @@ $ ./config/kitty/install
 | Ctrl + Shift + BackSpace  | Reset font size                   |
 
 ## .config/kitty/kitty.conf
-
 Main Configuration of Kitty Terminal.
 
 **Font Settings**:
@@ -85,31 +80,26 @@ italic_font      Source Code Pro Italic
 bold_italic_font Source Code Pro Bold Italic
 font_size 8.0
 ```
-
 **GUI - Background Opacity & Padding**:
 ```
 background_opacity 0.85
 window_padding_width 4
 ```
-
 **Extra - Max history lines & Bell tone**:
 ```
 scrollback_lines 4096
 enable_audio_bell no
 ```
-
 **Extra - Remove spaces at the end of lines while copying to clipboard**:
 ```
 strip_trailing_spaces smart
 ```
-
 **Include - color settings**:
 ```
 include color.conf
 ```
 
 ## .config/kitty/color.conf
-
 Setting basic colors in Kitty Terminal. *AKA Color Pallet*
 
 **Selected Text Color - Foreground & Background**:
@@ -117,55 +107,46 @@ Setting basic colors in Kitty Terminal. *AKA Color Pallet*
 selection_foreground #161520
 selection_background #ebece6
 ```
-
 **Main Text Colors - Foreground & Background**:
 ```
 foreground #ebece6
 background #161520
 ```
-
 **Black Colors**:
 ```
 color0 #29282f
 color8 #63626a
 ```
-
 **Red Colors**:
 ```
 color1 #bf3032
 color9 #fa3e48
 ```
-
 **Green Colors**:
 ```
 color2  #30bf54
 color10 #50fa7b
 ```
-
 **Yellow Colors**:
 ```
 color3  #b1bf30
 color11 #d7e267
 ```
-
 **Blue Colors**:
 ```
 color4  #303ebf
 color12 #4665da
 ```
-
 **Magneta Colors**:
 ```
 color5  #aa30bf
 color13 #bc43d2
 ```
-
 **Cyan Colors**:
 ```
 color6  #30a7bf
 color14 #67c6da
 ```
-
 **White Colors**:
 ```
 color7  #bfbfb8
