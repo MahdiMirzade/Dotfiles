@@ -1,11 +1,17 @@
+#
+#   __  __       _         _         __  __ _                   _
+#  |  \/  | __ _| |__   __| |_   _  |  \/  (_)_ __ ______ _  __| | ___
+#  | |\/| |/ _` | '_ \ / _` | | | | | |\/| | | '__|_  / _` |/ _` |/ _ \
+#  | |  | | (_| | | | | (_| | |_| | | |  | | | |   / / (_| | (_| |  __/
+#  |_|  |_|\__,_|_| |_|\__,_|\__, | |_|  |_|_|_|  /___\__,_|\__,_|\___|
+#                            |___/
+#
 # This file is a part of `github.com/mahdymirzade/dotfiles`.
-# Main reference is `https://i3wm.org/docs/userguide.html`.
 #
-# Reset this file by:
-# $ i3-config-wizard
+# Main reference:
+# https://i3wm.org/docs/userguide.html
 #
-# Good Luck! :P
-
+#
 # Set modifier
 set $mod Mod4
 
@@ -35,6 +41,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10%
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10%
 
+# Music Control CLI
+bindsym XF86AudioPlay exec --no-startup-id "mpc toggle"
+bindsym XF86AudioNext exec --no-startup-id "mpc next"
+bindsym XF86AudioPrev exec --no-startup-id "mpc prev"
+
 # Drag floating windows using $mod+Mouse
 floating_modifier $mod
 
@@ -49,6 +60,8 @@ bindsym $mod+z exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9'"
 bindsym $mod+Shift+z exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
 
 # Custom keybinds
+bindsym Print exec "scrot"
+bindsym $mod+Print exec "scrot -u"
 
 # Change focus
 bindsym $mod+j focus left
