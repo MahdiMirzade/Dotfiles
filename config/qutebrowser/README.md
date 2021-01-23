@@ -2,6 +2,8 @@
 
 [Qute Browser](https://qutebrowser.org/) is a Vim-style Web Browser.
 
+[Main Documentation](https://qutebrowser.org/doc/help/configuring.html)
+
 ## Headers
 - [Install + Config](#installation)
 - [QuteBrowser ScreenShots](#screenshots)

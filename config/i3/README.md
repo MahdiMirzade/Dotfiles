@@ -2,6 +2,8 @@
 
 [i3](https://i3wm.org) is a tiling window manager which I use everyday.
 
+[Main Documentation](https://i3wm.org/docs/userguide.html)
+
 ## Headers
 - [Install + Config](#installation)
 - [i3 ScreenShots](#screenshots)

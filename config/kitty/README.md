@@ -1,6 +1,8 @@
 # Kitty Docs
 
-kitty is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.
+[Kitty](https://sw.kovidgoyal.net/kitty) is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.
+
+[Original Documentation](https://sw.kovidgoyal.net/kitty/conf.html)
 
 ## Headers
 - [Install + Config](#installation)

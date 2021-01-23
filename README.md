@@ -1,4 +1,4 @@
-# dotfiles
+# Dotfiles
 
 These files are optimized for me (as a desktop user), if you did enjoy, help me improve this repository by pull requests or maybe [donating](#donate).
 
@@ -11,9 +11,9 @@ $ pacman -S xorg lightdm lightdm-gtk-greeter i3-wm kitty zsh thunar qutebrowser
 
 **Clone this repo and do configuration**
 ```
-$ sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./install
+$ sed -i 's/greeter-session=/greeter-session=lightdm-gtk-greeter/g' /etc/lightdm/lightdm.conf
 ```
 
 **Enable GUI**:
