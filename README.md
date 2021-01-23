@@ -133,7 +133,7 @@ $ ./config/qutebrowser/install
 [Documentation](/config/qutebrowser)
 
 ## ToDO
-- [ ] Writing docs for configs.
+- [x] Writing docs for configs.
 - [ ] Change GIFs and JPGs of docs.
 - [ ] Make introduction video about this repo.
 - [ ] Threaten people to star this page on github.
