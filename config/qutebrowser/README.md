@@ -1,7 +1,5 @@
 # Qutebrowser Docs
-
-[Qute Browser](https://qutebrowser.org/) is a Vim-style Web Browser.
-
+[Qute Browser](https://qutebrowser.org/) is a Vim-style Web Browser.<br/>
 [Main Documentation](https://qutebrowser.org/doc/help/configuring.html)
 
 ## Headers
@@ -18,30 +16,45 @@ $ ./config/qutebrowser/install
 ```
 
 ## ScreenShots
-
 > Qute Browser is clean, fast and AWESOME!
-
 <img src="img/qb.clean.png" alt="Clean Interface" width="512" height="288">
 
 > Doing Dark Mode Everywhere :D
-
 <img src="img/qb.darkmode.png" alt="Auto Dark Mode" width="512" height="288">
 
 > Power in your hands with awesome keyboard shortcuts
-
 <img src="img/qb.keyboard.png" alt="Keyboard Shortcuts" width="512" height="288">
 
 ## CheatSheet
+> Basic keybindings
+
+| Key         | Functionality               |
+| ----------- | --------------------------- |
+| :           | Enter command line          |
+| /           | Search (n: forth, N: back)  |
+| Arrows/hjkl | Move around a webpage       |
+| O           | Open URL / Search           |
+| GO          | Edit Current URL            |
+| D           | Close current tab           |
+| U           | Restore the closed tab      |
+| L           | Next history record (forth) |
+| H           | Prev history record (back)  |
+| F           | Click on sth without mouse  |
+| Shift + O   | Open URL in a new tab       |
+| Shift + J   | Next Tab                    |
+| Shift + K   | Prev Tab                    |
+| Alt + 1-9   | Switch between tabs 1-9     |
+
+Original help page and [training course](https://www.shortcutfoo.com/app/dojos/qutebrowser) are your best friends.<br/>
+You can get to qutebrowser's help page by ':help'.
 
 ## .config/qutebrowser/config.py
-
 **Dark reader + Auto Save + 75% Zoom**:
 ```
 config.set("colors.webpage.darkmode.enabled", True)
 config.set("auto_save.session", True)
 config.set("zoom.default", "75%")
 ```
-
 **Basic Colors**:
 ```
 base00 = "#1d2021"
@@ -61,7 +74,6 @@ base0D = "#83a598"
 base0E = "#d3869b"
 base0F = "#d65d0e"
 ```
-
 **Set Colors**:
 ```
 c.colors.completion.fg = base05
@@ -155,8 +167,7 @@ c.colors.tabs.selected.even.fg = base05
 c.colors.tabs.selected.even.bg = base02
 # c.colors.webpage.bg = base00
 ```
-
-**Credit:** [base16-qutebrowser](https://github.com/theova/base16-qutebrowser)
+**Credits for color pallet:** [base16-qutebrowser](https://github.com/theova/base16-qutebrowser)
 
 **Short Links**
 - [Main Menu](./../../../../)
