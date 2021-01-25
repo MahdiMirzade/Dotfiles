@@ -9,15 +9,19 @@
 # This file is a part of `github.com/mahdymirzade/dotfiles`.
 #
 # Main reference:
-# https://i3wm.org/docs/userguide.html#_configuring_i3bar
+# https://i3wm.org/i3status/manpage.html
 #
 #
 general {
-        colors = false
+        #colors = true
+        color_good = "#40ff00"
+        color_degraded = "#ffff00"
+        color_bad = "#ff6400"
         interval = 5
 }
 
 #order += "load"
+order += "memory"
 order += "disk /"
 #order += "disk /home"
 #order += "wireless _first_"
@@ -28,6 +32,11 @@ order += "tztime local"
 
 load {
         format = "   %1min "
+}
+
+memory {
+        format = " 💿 %used "
+        threshold_degraded = "10%"
 }
 
 disk "/" {
