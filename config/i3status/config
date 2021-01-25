@@ -21,7 +21,7 @@ general {
 }
 
 #order += "load"
-order += "memory"
+#order += "memory"
 order += "disk /"
 #order += "disk /home"
 #order += "wireless _first_"
