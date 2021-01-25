@@ -56,6 +56,7 @@ battery all {
         status_full = "☻ FULL"
         low_threshold = 15
         integer_battery_capacity = true
+        last_full_capacity = true
 }
 
 volume all {
