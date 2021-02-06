@@ -22,7 +22,7 @@ config.set("zoom.default", "75%")
 # Basic Colors
 base00 = "#1d2021"
 base01 = "#3c3836"
-base02 = "#504945"
+base02 = "#615d5b"
 base03 = "#665c54"
 base04 = "#bdae93"
 base05 = "#d5c4a1"
