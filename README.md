@@ -5,7 +5,7 @@ help me improve this repository by pull requests or maybe [donating](#donate).
 ## Full Installation
 **Installing all requirements in arch linux for GUI**
 ```
-$ pacman -S xorg lightdm lightdm-gtk-greeter i3 kitty zsh thunar qutebrowser noto-fonts
+$ pacman -S xorg lightdm lightdm-gtk-greeter i3 kitty zsh thunar qutebrowser noto-fonts networkmanager network-manager-applet pulseaudio pavucontrol
 ```
 **Clone this repo and do configuration**
 ```
@@ -18,18 +18,24 @@ $ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greet
 $ systemctl enable lightdm
 $ systemctl start lightdm - if lightdm didn't start
 ```
+**Enable Audio Server**:
+```
+$ pulseaudio --start
+```
 
 ## Details
-| Name                  | Value                         |
-| --------------------- | ----------------------------- |
-| Graphical Server      | [Xorg](#xorg)                 |
-| Desktop Environment   | *None*                        |
-| Window Manager        | [i3](#i3)                     |
-| Display Manager       | [LightDM](#lightdm)           |
-| Terminal              | [Kitty](#kitty)               |
-| Shell                 | [ZSH](#zsh)                   |
-| File Manager          | [Thunar](#thunar)             |
-| Internet Browser      | [QuteBrowser](#qute-browser)  |
+| Name                  | Value                         	|
+| --------------------- | ------------------------------------- |
+| Graphical Server      | [Xorg](#xorg)                 	|
+| Desktop Environment   | *None*                        	|
+| Window Manager        | [i3](#i3)                     	|
+| Terminal              | [Kitty](#kitty)               	|
+| Shell                 | [ZSH](#zsh)                   	|
+| File Manager          | [Thunar](#thunar)             	|
+| Internet Browser      | [QuteBrowser](#qute-browser)  	|
+| Display Manager       | [LightDM](#lightdm)           	|
+| Network Manager	| [networkmanager](#network-manager)	|
+| Audio Server		| [PulseAudio](#pulse-audio)		|
 
 ## Xorg
 <img src="assets/xorg.gif" alt="Xorg Gif" width="512" height="122">
@@ -55,22 +61,6 @@ $ pacman -S i3
 $ ./config/i3/install
 ```
 [Documentation](/config/i3)
-
-## LightDM
-<img src="assets/lightdm.gif" alt="LightDM Login" width="512" height="320">
-
-[LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
-
-I use *lightdm-gtk-greeter* as my greeter.
-
-**Installation**
-```
-$ pacman -S lightdm lightdm-gtk-greeter
-```
-**Configuration**
-```
-$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" /etc/lightdm/lightdm.conf
-```
 
 ## Kitty
 <img src="assets/kitty.gif" alt="Kitty Gif" width="512" height="380">
@@ -131,6 +121,42 @@ $ pacman -S qutebrowser
 $ ./config/qutebrowser/install
 ```
 [Documentation](/config/qutebrowser)
+
+## LightDM
+<img src="assets/lightdm.gif" alt="LightDM Login" width="512" height="320">
+
+[LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
+
+I use *lightdm-gtk-greeter* as my greeter.
+
+**Installation**
+```
+$ pacman -S lightdm lightdm-gtk-greeter
+```
+**Configuration**
+```
+$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" /etc/lightdm/lightdm.conf
+```
+
+## Network Manager
+
+[networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
+
+**Installation**
+```
+$ pacman -S networkmanager network-manager-applet
+```
+
+## Pulse Audio
+
+[PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) is a featureful, general-purpose sound server.
+
+[pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) is the PulseAudio Volume Control.
+
+**Installation**
+```
+$ pacman -S pulseaudio pavucontrol
+```
 
 ## ToDO
 - [x] Writing docs for configs.
