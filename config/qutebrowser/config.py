@@ -12,6 +12,8 @@
 # https://qutebrowser.org/doc/help/configuring.html
 #
 #
+config.load_autoconfig()
+
 # Custom Settings
 config.set("colors.webpage.darkmode.enabled", True)
 config.set("auto_save.session", True)
