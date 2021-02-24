@@ -56,12 +56,13 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # Run dmenu or rofi (program launcher)
-bindsym $mod+z exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9'"
-bindsym $mod+Shift+z exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9'"
+bindsym $mod+Shift+z exec --no-startup-id rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
 
 # Custom keybinds
-bindsym Print exec "scrot"
-bindsym $mod+Print exec "scrot -u"
+bindsym Print exec --no-startup-id "scrot"
+bindsym $mod+Print exec --no-startup-id "scrot -u"
+bindsym $mod+Shift+Print exec --no-startup-id "scrot -s"
 
 # Change focus
 bindsym $mod+j focus left
@@ -197,23 +198,24 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# bar toggle, hide or show 
+bindsym $mod+m bar mode toggle
+
 #i3-status
 bar {
 	colors {
-        background #1f2e2e
+        background #2a2f3a
         statusline #00ffff
         separator #006644
         
 		# color of border, background, and text
-        focused_workspace	#00ffff	#00ffff	#1f2e2e
-        active_workspace	#1f2e2e	#1f2e2e	#00ffff
-        inactive_workspace	#1f2e2e	#1f2e2e	#00ffff
-        urgent_workspace	#40ff00 #40ff00 #1f2e2e
+        focused_workspace	#00ffff	#00ffff	#2a2f3a
+        active_workspace	#2a2f3a	#2a2f3a	#00ffff
+        inactive_workspace	#2a2f3a	#2a2f3a	#00ffff
+        urgent_workspace	#40ff00 #40ff00 #2a2f3a
     }
         status_command i3status
         strip_workspace_numbers yes
         position bottom
         height 20
-        # I prefer hiding i3bar but disabled by default
-		#mode hide
 }
