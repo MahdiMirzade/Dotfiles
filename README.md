@@ -5,13 +5,15 @@ help me improve this repository by pull requests or maybe [donating](#donate).
 ## Full Installation
 **Installing all requirements in arch linux for GUI**
 ```
-$ pacman -S xorg lightdm lightdm-gtk-greeter i3 kitty zsh thunar qutebrowser noto-fonts networkmanager network-manager-applet pulseaudio pavucontrol
+$ pacman -S xorg lightdm lightdm-gtk-greeter i3 kitty zsh thunar qutebrowser \
+noto-fonts networkmanager network-manager-applet pulseaudio pavucontrol
 ```
 **Clone this repo and do configuration**
 ```
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./install
-$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" /etc/lightdm/lightdm.conf
+$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" \
+/etc/lightdm/lightdm.conf
 ```
 **Enable GUI**:
 ```
@@ -135,7 +137,8 @@ $ pacman -S lightdm lightdm-gtk-greeter
 ```
 **Configuration**
 ```
-$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" /etc/lightdm/lightdm.conf
+$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" \
+/etc/lightdm/lightdm.conf
 ```
 
 ## Network Manager
