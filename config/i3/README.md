@@ -11,7 +11,7 @@
 
 ## Installation
 ```
-$ pacman -S i3-wm
+$ pacman -S i3
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/i3/install
 ```
