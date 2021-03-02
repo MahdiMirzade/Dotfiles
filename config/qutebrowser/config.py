@@ -12,14 +12,24 @@
 # https://qutebrowser.org/doc/help/configuring.html
 #
 #
+# Autoconfig Default Settings
 config.load_autoconfig()
 
-# Custom Settings
+# Setting Dark Mode
 config.set("colors.webpage.darkmode.enabled", True)
+
+# Auto Save Session in Unpredictable Situations
 config.set("auto_save.session", True)
+
+# Change Default Zoom to 75%
 config.set("zoom.default", "75%")
 
-# Credits to base16-qutebrowser (https://github.com/theova/base16-qutebrowser) for the awesome theme <3
+# Adding MPV Open URL Keybinding, Now with 'B' Shortcut
+# We Can Open URLs in MPV fast, cozy and easy
+config.bind('B', 'hint links spawn mpv {hint-url}')
+
+# Credits to base16-qutebrowser for the awesome theme
+# (https://github.com/theova/base16-qutebrowser) <3
 
 # Basic Colors
 base00 = "#1d2021"
@@ -39,7 +49,7 @@ base0D = "#83a598"
 base0E = "#d3869b"
 base0F = "#d65d0e"
 
-# set qutebrowser colors
+# Set QuteBrowser Colors
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
