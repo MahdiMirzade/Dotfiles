@@ -12,7 +12,7 @@
 # https://i3wm.org/docs/userguide.html
 #
 #
-# Theme colors		border	backgr.	text	indic.
+# Theme colors          border  backgr. text    indic.
 client.focused          #00ffff #00ffff #2a2f3a #FDF6E3
 client.focused_inactive #2a2f3a #2a2f3a #00ffff #454948
 client.unfocused        #2a2f3a #2a2f3a #00ffff #454948
@@ -217,7 +217,7 @@ bar {
         statusline #00ffff
         separator #006644
         
-	# Theme colors		border	backgr. text
+	# Theme colors          border  backgr. text
         focused_workspace	#00ffff	#00ffff	#2a2f3a
         active_workspace	#2a2f3a	#2a2f3a	#00ffff
         inactive_workspace	#2a2f3a	#2a2f3a	#00ffff
