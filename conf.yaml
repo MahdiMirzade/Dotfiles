@@ -21,6 +21,8 @@
       path: config/qutebrowser/config.py
     ~/.config/i3/config:
       path: config/i3/config
+    ~/.config/i3/lockscreen.png:
+      path: config/i3/lockscreen.png
     ~/.config/i3status/config:
       path: config/i3status/config
     ~/.config/kitty/kitty.conf:

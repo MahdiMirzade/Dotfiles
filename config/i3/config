@@ -20,34 +20,27 @@ client.urgent           #40ff00 #40ff00 #2a2f3a #268BD2
 client.placeholder      #000000 #0c0c0c #ffffff #000000 
 client.background       #2a2f3a
 
-# Set modifier
+# Set modifier, title-bar-alignment, title-bar-font(and bar{} font) and window-border
 set $mod Mod4
-
-# Set border/title-bar
 title_align center
+font pango:monospace 8
 default_border pixel 1
 
-# Font for window titles and bar{} block. (unless a different font was set)
-font pango:monospace 8
-
-# This font provides lots of unicode glyphs, right-to-left text rendering.
-#font pango:DejaVu Sans Mono 8
-
 # Auto-start Section
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec --no-startup-id nm-applet
-exec --no-startup-id picom
+exec --no-startup-id "xss-lock --transfer-sleep-lock -- i3lock --nofork"
+exec --no-startup-id "nm-applet"
+exec --no-startup-id "picom"
 
 # Adjust volume (PulseAudio)
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status"
+bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status"
+bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status"
+bindsym XF86AudioMicMute exec --no-startup-id "pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status"
 
 # Adjust brightness (github.com/haikarainen/light)
-bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10%
-bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10%
+bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 10%"
+bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 10%"
 
 # Music Control CLI
 bindsym XF86AudioPlay exec --no-startup-id "mpc toggle"
@@ -60,14 +53,16 @@ floating_modifier $mod
 # New terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# Lockscreen
+bindsym $mod+q exec "i3lock -f -t -n -i ~/.config/i3/lockscreen.png"
+
 # Kill focused window
 bindsym $mod+Shift+q kill
 
-# Run dmenu or rofi (program launcher)
+# Run dmenu (program launcher)
 bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9' -nb '#2a2f3a' -nf '#00ffff' -sb '#2a2f3a' -sf '#ffff00'"
-bindsym $mod+Shift+z exec --no-startup-id rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 9'
 
-# Custom keybinds
+# Taking screenshot (fullscreen, current window and custom shot)
 bindsym Print exec --no-startup-id "scrot"
 bindsym $mod+Print exec --no-startup-id "scrot -u"
 bindsym $mod+Shift+Print exec --no-startup-id "scrot -s"
@@ -209,6 +204,12 @@ bindsym $mod+r mode "resize"
 # bar toggle, hide or show 
 bindsym $mod+m bar mode toggle
 
+# i3-gaps
+smart_gaps on
+smart_borders on
+gaps inner 5
+gaps outer 3
+
 # i3-status
 bar {
 	colors {
@@ -227,9 +228,3 @@ bar {
         position bottom
         height 20
 }
-
-# i3-gaps
-smart_gaps on
-smart_borders on
-gaps inner 5
-gaps outer 3
