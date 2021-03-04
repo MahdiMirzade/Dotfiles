@@ -27,6 +27,7 @@ font pango:monospace 8
 default_border pixel 1
 
 # Auto-start Section
+exec --no-startup-id "nitrogen --set-auto --save ~/.config/wallpaper/background.jpg"
 exec --no-startup-id "xss-lock --transfer-sleep-lock -- i3lock --nofork"
 exec --no-startup-id "nm-applet"
 exec --no-startup-id "picom"
@@ -54,7 +55,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # Lockscreen
-bindsym $mod+q exec "i3lock -f -t -n -i ~/.config/i3/lockscreen.png"
+bindsym $mod+q exec "i3lock -f -t -n -i ~/.config/wallpaper/lockscreen.png"
 
 # Kill focused window
 bindsym $mod+Shift+q kill

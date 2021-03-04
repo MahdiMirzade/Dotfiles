@@ -19,8 +19,10 @@
 - link:
     ~/.config/i3/config:
       path: config
-    ~/.config/i3/locksreen.png:
-      path: lockscreen.png
+    ~/.config/wallpaper/background.jpg:
+      path: ../wallpaper/background.jpg
+    ~/.config/wallpaper/locksreen.png:
+      path: ../wallpaper/lockscreen.png
     ~/.config/i3status/config:
       path: ../i3status/config
 

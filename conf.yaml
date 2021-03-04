@@ -21,14 +21,16 @@
       path: config/qutebrowser/config.py
     ~/.config/i3/config:
       path: config/i3/config
-    ~/.config/i3/lockscreen.png:
-      path: config/i3/lockscreen.png
     ~/.config/i3status/config:
       path: config/i3status/config
     ~/.config/kitty/kitty.conf:
       path: config/kitty/kitty.conf
     ~/.config/kitty/color.conf:
       path: config/kitty/color.conf
+    ~/.config/wallpaper/background.png:
+      path: config/wallpaper/background.png
+    ~/.config/wallpaper/lockscreen.png:
+      path: config/wallpaper/lockscreen.png
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
