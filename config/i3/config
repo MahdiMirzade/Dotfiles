@@ -64,8 +64,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # Run dmenu or rofi (program launcher)
-bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9'"
-bindsym $mod+Shift+z exec --no-startup-id rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9' -nb '#2a2f3a' -nf '#00ffff' -sb '#2a2f3a' -sf '#ffff00'"
+bindsym $mod+Shift+z exec --no-startup-id rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 9'
 
 # Custom keybinds
 bindsym Print exec --no-startup-id "scrot"
