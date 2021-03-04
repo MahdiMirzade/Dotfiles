@@ -201,7 +201,7 @@ bindsym $mod+r mode "resize"
 # bar toggle, hide or show 
 bindsym $mod+m bar mode toggle
 
-#i3-status
+# i3-status
 bar {
 	colors {
         background #2a2f3a
@@ -219,3 +219,9 @@ bar {
         position bottom
         height 20
 }
+
+# i3-gaps
+smart_gaps on
+smart_borders on
+gaps inner 5
+gaps outer 3
