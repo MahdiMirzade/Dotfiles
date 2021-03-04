@@ -2,6 +2,8 @@
 [i3](https://i3wm.org) is a tiling window manager which I use everyday.<br/>
 [Main Documentation](https://i3wm.org/docs/userguide.html)
 
+
+
 ## Headers
 - [Install + Config](#installation)
 - [i3 ScreenShots](#screenshots)
@@ -9,12 +11,16 @@
 - [.config/i3/config](#configi3config)
 - [.config/i3status/config](#configi3statusconfig)
 
+
+
 ## Installation
 ```
-$ pacman -S i3
+$ pacman -S i3 dmenu
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/i3/install
 ```
+
+
 
 ## ScreenShots
 > Clean Interview without any opened windows. *[only i3status & nm-applet]*
@@ -25,6 +31,8 @@ $ ./config/i3/install
 
 > Using [i3status](https://github.com/mahdymirzade/dotfiles/tree/main/config/i3status) as panel
 <img src="img/i3.status.png" alt="i3 status bar" width="512" height="200">
+
+
 
 ## CheatSheet
 > Window Management Keybinds
@@ -58,6 +66,8 @@ $ ./config/i3/install
 | PrtSc             | Capturing Screen Shot *Using scrot*   |
 | Super + PrtSc     | Capturing Focused Window's Screen     |
 
+
+
 ## .config/i3/config
 I have done some extra configuration on my keyboard:
 
@@ -79,6 +89,8 @@ bindsym XF86AudioPlay exec --no-startup-id "mpc toggle"
 bindsym XF86AudioNext exec --no-startup-id "mpc next"
 bindsym XF86AudioPrev exec --no-startup-id "mpc prev"
 ```
+
+
 
 ## .config/i3status/config
 **Default settings:**
@@ -109,6 +121,8 @@ order += "load"
 @ Enabled 'load average' module
 ```
 
-**Short Links**
+
+
+### Short Links
 - [Main Menu](./../../../../)
 - [Back to Config Dir](./../)

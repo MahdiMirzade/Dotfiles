@@ -6,6 +6,8 @@ For documentation, please refer to _config/i3_.
 
 [Main Documentation](https://i3wm.org/docs/userguide.html#_configuring_i3bar)
 
-**Short Links**
+
+
+### Short Links
 - [Main Menu](./../../../../)
 - [Back to Config Dir](./../)

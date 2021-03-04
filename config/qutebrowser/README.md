@@ -2,11 +2,15 @@
 [Qute Browser](https://qutebrowser.org/) is a Vim-style Web Browser.<br/>
 [Main Documentation](https://qutebrowser.org/doc/help/configuring.html)
 
+
+
 ## Headers
 - [Install + Config](#installation)
 - [QuteBrowser ScreenShots](#screenshots)
 - [QuteBrowser CheatSheet](#cheatsheet)
 - [.config/qutebrowser/config.py](#configqutebrowserconfigpy)
+
+
 
 ## Installation
 ```
@@ -14,6 +18,8 @@ $ pacman -S qutebrowser
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/qutebrowser/install
 ```
+
+
 
 ## ScreenShots
 > Qute Browser is clean, fast and AWESOME!
@@ -24,6 +30,8 @@ $ ./config/qutebrowser/install
 
 > Power in your hands with awesome keyboard shortcuts
 <img src="img/qb.keyboard.png" alt="Keyboard Shortcuts" width="512" height="288">
+
+
 
 ## CheatSheet
 > Basic keybindings
@@ -48,12 +56,16 @@ $ ./config/qutebrowser/install
 Original help page and [training course](https://www.shortcutfoo.com/app/dojos/qutebrowser) are your best friends.<br/>
 You can get to qutebrowser's help page by ':help'.
 
+
+
 ## .config/qutebrowser/config.py
-**Dark reader + Auto Save + 75% Zoom**:
+**Load Autoconfig + Dark reader + Auto Save + 75% Zoom + Open Url's in MPV**:
 ```
+config.load_autoconfig()
 config.set("colors.webpage.darkmode.enabled", True)
 config.set("auto_save.session", True)
 config.set("zoom.default", "75%")
+config.bind('B', 'hint links spawn mpv {hint-url}')
 ```
 **Basic Colors**:
 ```

@@ -2,11 +2,14 @@
 [Kitty](https://sw.kovidgoyal.net/kitty) is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.<br/>
 [Main Documentation](https://sw.kovidgoyal.net/kitty/conf.html)
 
+
+
 ## Headers
 - [Install + Config](#installation)
 - [Kitty CheatSheet](#cheatsheet)
 - [.config/kitty/kitty.conf](#configkittykittyconf)
 - [.config/kitty/color.conf](#configkittycolorconf)
+
 
 
 ## Installation
@@ -15,6 +18,8 @@ $ pacman -S kitty
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/kitty/install
 ```
+
+
 
 ## CheatSheet
 > Clipboard
@@ -69,6 +74,8 @@ $ ./config/kitty/install
 | Ctrl + Shift + [-]        | Decrease font size                |
 | Ctrl + Shift + BackSpace  | Reset font size                   |
 
+
+
 ## .config/kitty/kitty.conf
 Main Configuration of Kitty Terminal.
 
@@ -98,6 +105,8 @@ strip_trailing_spaces smart
 ```
 include color.conf
 ```
+
+
 
 ## .config/kitty/color.conf
 Setting basic colors in Kitty Terminal. *AKA Color Pallet*
@@ -153,6 +162,8 @@ color7  #bfbfb8
 color15 #ebece6
 ```
 
-**Short Links**
+
+
+### Short Links
 - [Main Menu](./../../../../)
 - [Back to Config Dir](./../)

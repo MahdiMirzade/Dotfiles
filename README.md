@@ -7,7 +7,7 @@ help me improve this repository by pull requests or maybe [donating](#donate).
 ## Full Installation
 **Installing all requirements in arch linux for GUI**
 ```
-$ pacman -S xorg lightdm lightdm-gtk-greeter i3 \
+$ pacman -S xorg lightdm lightdm-gtk-greeter i3 dmenu \
 kitty zsh thunar qutebrowser \ pulseaudio pavucontrol \
 networkmanager network-manager-applet \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation
@@ -78,7 +78,7 @@ These packages contains chinese, japanese, korean (CJK) fonts as well.
 
 **Installation**
 ```
-$ pacman -S i3
+$ pacman -S i3 dmenu
 ```
 **Configuration**
 ```
