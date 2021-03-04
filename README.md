@@ -2,17 +2,22 @@
 These files are optimized for me (as a desktop user), if you did enjoy,<br/>
 help me improve this repository by pull requests or maybe [donating](#donate).
 
+
+
 ## Full Installation
 **Installing all requirements in arch linux for GUI**
 ```
-$ pacman -S xorg lightdm lightdm-gtk-greeter i3 kitty zsh thunar qutebrowser \
-noto-fonts networkmanager network-manager-applet pulseaudio pavucontrol
+$ pacman -S xorg lightdm lightdm-gtk-greeter i3 \
+kitty zsh thunar qutebrowser \ pulseaudio pavucontrol \
+networkmanager network-manager-applet \
+noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation
 ```
 **Clone this repo and do configuration**
 ```
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./install
-$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" \
+$ sed -i "s/#greeter-session=example-gtk-gnome/\
+greeter-session=lightdm-gtk-greeter/g" \
 /etc/lightdm/lightdm.conf
 ```
 **Enable GUI**:
@@ -25,19 +30,24 @@ $ systemctl start lightdm - if lightdm didn't start
 $ pulseaudio --start
 ```
 
+
+
 ## Details
-| Name                  | Value                         	|
+| Name                  | Value                         	      |
 | --------------------- | ------------------------------------- |
-| Graphical Server      | [Xorg](#xorg)                 	|
-| Desktop Environment   | *None*                        	|
-| Window Manager        | [i3](#i3)                     	|
-| Terminal              | [Kitty](#kitty)               	|
-| Shell                 | [ZSH](#zsh)                   	|
-| File Manager          | [Thunar](#thunar)             	|
-| Internet Browser      | [QuteBrowser](#qute-browser)  	|
-| Display Manager       | [LightDM](#lightdm)           	|
-| Network Manager	| [networkmanager](#network-manager)	|
-| Audio Server		| [PulseAudio](#pulse-audio)		|
+| Graphical Server      | [Xorg](#xorg)                 	      |
+| Fonts Configuration   | [Fonts](#fonts)                       |
+| Desktop Environment   | *None*                        	      |
+| Window Manager        | [i3](#i3)                     	      |
+| Terminal              | [Kitty](#kitty)               	      |
+| Shell                 | [ZSH](#zsh)                   	      |
+| File Manager          | [Thunar](#thunar)             	      |
+| Internet Browser      | [QuteBrowser](#qute-browser)  	      |
+| Display Manager       | [LightDM](#lightdm)           	      |
+| Network Manager     	| [networkmanager](#network-manager)	  |
+| Audio Server	      	| [PulseAudio](#pulse-audio)		        |
+
+
 
 ## Xorg
 <img src="assets/xorg.gif" alt="Xorg Gif" width="512" height="122">
@@ -48,6 +58,18 @@ $ pulseaudio --start
 ```
 $ pacman -S xorg
 ```
+
+
+
+## Fonts
+
+Install following packages if you are missing characters/fonts/monospace:
+```
+$ pacman -S noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation
+```
+These packages contains chinese, japanese, korean (CJK) fonts as well.
+
+
 
 ## i3
 <img src="assets/i3.gif" alt="i3 Gif" width="512" height="288">
@@ -64,6 +86,8 @@ $ ./config/i3/install
 ```
 [Documentation](/config/i3)
 
+
+
 ## Kitty
 <img src="assets/kitty.gif" alt="Kitty Gif" width="512" height="380">
 
@@ -78,6 +102,8 @@ $ pacman -S kitty
 $ ./config/kitty/install
 ```
 [Documentation](/config/kitty)
+
+
 
 ## ZSH
 <img src="assets/zsh.gif" alt="ZSH Gif" width="512" height="341">
@@ -99,6 +125,8 @@ $ chsh -s /bin/zsh
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+
+
 ## Thunar
 <img src="assets/thunar.gif" alt="Thunar Icon" width="512" height="288">
 
@@ -108,6 +136,8 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 ```
 $ pacman -S thunar
 ```
+
+
 
 ## Qute Browser
 <img src="assets/qutebrowser.gif" alt="QuteBrowser Icon" width="512" height="288">
@@ -124,6 +154,8 @@ $ ./config/qutebrowser/install
 ```
 [Documentation](/config/qutebrowser)
 
+
+
 ## LightDM
 <img src="assets/lightdm.gif" alt="LightDM Login" width="512" height="320">
 
@@ -137,9 +169,12 @@ $ pacman -S lightdm lightdm-gtk-greeter
 ```
 **Configuration**
 ```
-$ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" \
+$ sed -i "s/#greeter-session=example-gtk-gnome/\
+greeter-session=lightdm-gtk-greeter/g" \
 /etc/lightdm/lightdm.conf
 ```
+
+
 
 ## Network Manager
 
@@ -149,6 +184,8 @@ $ sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greet
 ```
 $ pacman -S networkmanager network-manager-applet
 ```
+
+
 
 ## Pulse Audio
 
@@ -160,6 +197,12 @@ $ pacman -S networkmanager network-manager-applet
 ```
 $ pacman -S pulseaudio pavucontrol
 ```
+**Starting Daemon**
+```
+$ pulseaudio --start
+```
+
+
 
 ## ToDO
 - [x] Writing docs for configs.
