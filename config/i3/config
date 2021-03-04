@@ -12,12 +12,21 @@
 # https://i3wm.org/docs/userguide.html
 #
 #
+# Theme colors		border	backgr.	text	indic.
+client.focused          #00ffff #00ffff #2a2f3a #FDF6E3
+client.focused_inactive #2a2f3a #2a2f3a #00ffff #454948
+client.unfocused        #2a2f3a #2a2f3a #00ffff #454948
+client.urgent           #40ff00 #40ff00 #2a2f3a #268BD2
+client.placeholder      #000000 #0c0c0c #ffffff #000000 
+client.background       #2a2f3a
+
 # Set modifier
 set $mod Mod4
 
-# Hide new window's title bars
+# Border/Title-bar settings
+title_align center
 for_window [class="^.*"] border pixel 1
-new_window 1pixel
+default_border pixel 1
 
 # Font for window titles and bar{} block. (unless a different font was set)
 font pango:monospace 8
@@ -208,7 +217,7 @@ bar {
         statusline #00ffff
         separator #006644
         
-		# color of border, background, and text
+	# Theme colors		border	backgr. text
         focused_workspace	#00ffff	#00ffff	#2a2f3a
         active_workspace	#2a2f3a	#2a2f3a	#00ffff
         inactive_workspace	#2a2f3a	#2a2f3a	#00ffff
