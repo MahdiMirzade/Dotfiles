@@ -23,9 +23,8 @@ client.background       #2a2f3a
 # Set modifier
 set $mod Mod4
 
-# Border/Title-bar settings
+# Set border/title-bar
 title_align center
-for_window [class="^.*"] border pixel 1
 default_border pixel 1
 
 # Font for window titles and bar{} block. (unless a different font was set)
