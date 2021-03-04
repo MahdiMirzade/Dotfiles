@@ -41,6 +41,7 @@ $ ./config/i3/install
 | ------------------------- | --------------------------------------------- |
 | Super                     | The Main Controller                           |
 | Super + Enter             | Run Terminal                                  |
+| Super + Q                 | Lock Screen (i3lock)                          |
 | Super + Shift + Q         | Close Windows                                 |
 | Super + Z                 | Simple Launcher                               |
 | Super + Shift + Z         | Rofi Launcher                                 |
