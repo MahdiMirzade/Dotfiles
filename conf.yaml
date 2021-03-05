@@ -8,6 +8,14 @@
 #
 # This file is a part of `github.com/mahdymirzade/dotfiles`.
 #
+- shell:
+  - [sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" /etc/lightdm/lightdm.conf]
+  - [rm -rf /usr/share/icons/Tela-circle-black /usr/share/themes/Nordic-darker]
+  - [cp -rf config/themes/Tela-circle-black /usr/share/icons/]
+  - [cp -rf config/themes/Nordic-darker /usr/share/themes/]
+  - [cp -rf config/wallpaper/lockscreen.png /usr/share/pixmaps/lightdm.background.png]
+  - [cp -rf config/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf]
+
 - defaults:
     link:
       relink: true
@@ -27,10 +35,16 @@
       path: config/kitty/kitty.conf
     ~/.config/kitty/color.conf:
       path: config/kitty/color.conf
-    ~/.config/wallpaper/background.png:
-      path: config/wallpaper/background.png
-    ~/.config/wallpaper/lockscreen.png:
+    /usr/share/pixmaps/background.jpg:
+      path: config/wallpaper/background.jpg
+    /usr/share/pixmaps/lockscreen.png:
       path: config/wallpaper/lockscreen.png
+    /usr/share/icons/Tela-circle-black:
+      path: config/themes/Tela-circle-black
+    /usr/share/themes/Nordic-darker:
+      path: config/themes/Nordic-darker
+    ~/.gtkrc-2.0:
+      path: config/themes/gtkrc-2.0
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
