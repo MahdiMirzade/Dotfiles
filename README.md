@@ -7,18 +7,18 @@ help me improve this repository by pull requests or maybe [donating](#donate).
 ## Full Installation
 **Installing all requirements in arch linux for GUI**
 ```
-$ pacman -S xorg lightdm lightdm-gtk-greeter i3 dmenu \
-kitty zsh thunar qutebrowser \ pulseaudio pavucontrol \
+$ pacman -S xorg lightdm lightdm-gtk-greeter \
+i3 dmenu scrot nitrogen \
+kitty zsh thunar qutebrowser \
+pulseaudio pavucontrol \
 networkmanager network-manager-applet \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation
 ```
 **Clone this repo and do configuration**
 ```
-$ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
+$ git clone https://github.com/mahdymirzade/dotfiles.git
+$ cd dotfiles
 $ ./install
-$ sed -i "s/#greeter-session=example-gtk-gnome/\
-greeter-session=lightdm-gtk-greeter/g" \
-/etc/lightdm/lightdm.conf
 ```
 **Enable GUI**:
 ```
@@ -78,7 +78,7 @@ These packages contains chinese, japanese, korean (CJK) fonts as well.
 
 **Installation**
 ```
-$ pacman -S i3 dmenu
+$ pacman -S i3 dmenu scrot nitrogen
 ```
 **Configuration**
 ```
