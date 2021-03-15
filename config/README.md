@@ -10,4 +10,8 @@ Use *short links* for a fast way for going to your destination.
 - [Main Menu](./../../../)
 - [i3 window manager](./i3)
 - [Kitty Terminal Emulator](./kitty)
+- [Lightdm Display Manager](./lightdm)
+- [Qbittorrent UI Theme](./qbittorrent)
 - [Qute Web Browser](./qutebrowser)
+- [GTK Theme + Icon Pack](./themes)
+- [Wallpapers](./wallpaper)
