@@ -2,16 +2,12 @@
 [i3](https://i3wm.org) is a tiling window manager which I use everyday.<br/>
 [Main Documentation](https://i3wm.org/docs/userguide.html)
 
-
-
 ## Headers
 - [Install + Config](#installation)
 - [i3 ScreenShots](#screenshots)
 - [i3 CheatSheet](#cheatsheet)
 - [.config/i3/config](#configi3config)
 - [.config/i3status/config](#configi3statusconfig)
-
-
 
 ## Installation
 ```
@@ -20,17 +16,15 @@ $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/i3/install
 ```
 
-
-
 ## ScreenShots
 > Clean Interview without any opened windows. *[only i3status & nm-applet]*
-<img src="img/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
 
-> Launching apps with rofi
-<img src="img/i3.rofi.png" alt="i3 with rofi launcher" width="512" height="288">
+> Launching apps with dmenu
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.dmenu.png" alt="i3 with dmenu launcher" width="512" height="288">
 
 > Using [i3status](https://github.com/mahdymirzade/dotfiles/tree/main/config/i3status) as panel
-<img src="img/i3.status.png" alt="i3 status bar" width="512" height="200">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.status.png" alt="i3 status bar" width="512" height="200">
 
 
 
