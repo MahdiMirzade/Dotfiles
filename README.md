@@ -71,7 +71,7 @@ These packages contains chinese, japanese, korean (CJK) fonts as well.
 
 
 ## i3
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.gif" alt="i3 Gif" width="512" height="288" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/i3.gif" alt="i3 Gif" width="512" height="288" align="right">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
@@ -88,7 +88,7 @@ $ ./config/i3/install
 
 
 ## Kitty
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/kitty.gif" alt="Kitty Gif" width="512" height="341" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/kitty.gif" alt="Kitty Gif" width="512" height="341" align="right">
 
 [Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
@@ -125,7 +125,7 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 
 ## Thunar
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/thunar.gif" alt="Thunar Gif" width="512" height="273" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif" alt="Thunar Gif" width="512" height="273" align="right">
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
@@ -142,7 +142,7 @@ $ ./config/themes/install
 
 
 ## Qute Browser
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="512" height="288" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="512" height="288" align="right">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 

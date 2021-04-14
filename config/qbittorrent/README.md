@@ -28,7 +28,7 @@ $ pacman -S qbittorrent
 
 
 ## ScreenShots
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qbittorrent.png" alt="Custom theme" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qbittorrent.png" alt="Custom theme" width="512" height="288">
 
 
 ## Development
