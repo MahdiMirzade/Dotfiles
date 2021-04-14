@@ -71,7 +71,7 @@ These packages contains chinese, japanese, korean (CJK) fonts as well.
 
 
 ## i3
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.gif" alt="i3 Gif" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.gif" alt="i3 Gif" width="512" height="288" align="right">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
