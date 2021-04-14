@@ -194,6 +194,7 @@ $ pacman -S networkmanager network-manager-applet
 
 
 ## Pulse Audio
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif" alt="PulseAudio Gif" width="512" height="315" align="right">
 
 [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) is a featureful, general-purpose sound server.
 
