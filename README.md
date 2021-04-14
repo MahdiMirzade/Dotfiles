@@ -105,8 +105,6 @@ $ ./config/kitty/install
 
 
 ## ZSH
-<img src="assets/zsh.gif" alt="ZSH Gif" width="512" height="341">
-
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
 **Installation**
@@ -127,7 +125,7 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 
 ## Thunar
-<img src="assets/thunar.gif" alt="Thunar Icon" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/thunar.png" alt="Thunar Pic" width="512" height="325">
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
