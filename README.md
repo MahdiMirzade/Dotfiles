@@ -125,7 +125,7 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 
 ## Thunar
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/thunar.png" alt="Thunar Pic" width="512" height="325">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/thunar.gif" alt="Thunar Gif" width="512" height="273">
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 

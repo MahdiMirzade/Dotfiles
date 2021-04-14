@@ -2,14 +2,11 @@
 [Kitty](https://sw.kovidgoyal.net/kitty) is highly customizable, everything from keyboard shortcuts, to painting frames-per-second.<br/>
 [Main Documentation](https://sw.kovidgoyal.net/kitty/conf.html)
 
-
-
 ## Headers
 - [Install + Config](#installation)
+- [Kitty ScreenShots](#screenshots)
 - [Kitty CheatSheet](#cheatsheet)
 - [.config/kitty/kitty.conf](#configkittykittyconf)
-
-
 
 ## Installation
 ```
@@ -18,7 +15,10 @@ $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/kitty/install
 ```
 
+## ScreenShots
+> Kitty is an awesome Terminal Emulater :)
 
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/kitty.gif" alt="Kitty Gif" width="512" height="273">
 
 ## CheatSheet
 > Clipboard
