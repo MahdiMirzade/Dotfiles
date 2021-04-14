@@ -2,15 +2,11 @@
 [Qute Browser](https://qutebrowser.org/) is a Vim-style Web Browser.<br/>
 [Main Documentation](https://qutebrowser.org/doc/help/configuring.html)
 
-
-
 ## Headers
 - [Install + Config](#installation)
 - [QuteBrowser ScreenShots](#screenshots)
 - [QuteBrowser CheatSheet](#cheatsheet)
 - [.config/qutebrowser/config.py](#configqutebrowserconfigpy)
-
-
 
 ## Installation
 ```
@@ -18,8 +14,6 @@ $ pacman -S qutebrowser
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/qutebrowser/install
 ```
-
-
 
 ## ScreenShots
 > Qute Browser is clean, fast and AWESOME!
@@ -30,8 +24,6 @@ $ ./config/qutebrowser/install
 
 > Power in your hands with awesome keyboard shortcuts
 <img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.keyboard.png" alt="Keyboard Shortcuts" width="512" height="288">
-
-
 
 ## CheatSheet
 > Basic keybindings
@@ -55,8 +47,6 @@ $ ./config/qutebrowser/install
 
 Original help page and [training course](https://www.shortcutfoo.com/app/dojos/qutebrowser) are your best friends.<br/>
 You can get to qutebrowser's help page by ':help'.
-
-
 
 ## .config/qutebrowser/config.py
 **Load Autoconfig + Dark reader + Auto Save + 75% Zoom + Open Url's in MPV**:
@@ -196,7 +186,6 @@ c.tabs.padding = padding
 c.tabs.indicator.width = 1
 c.tabs.favicons.scale = 1
 ```
-**Credits for color pallet:** [base16-qutebrowser](https://github.com/theova/base16-qutebrowser)
 
 **Short Links**
 - [Main Menu](./../../../../)
