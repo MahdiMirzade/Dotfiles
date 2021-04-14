@@ -10,9 +10,9 @@
 #
 - shell:
   - [sed -i "s/#greeter-session=example-gtk-gnome/greeter-session=lightdm-gtk-greeter/g" /etc/lightdm/lightdm.conf]
-  - [rm -rf /usr/share/icons/Tela-circle-black /usr/share/themes/Nordic-darker]
-  - [cp -rf config/themes/Tela-circle-black /usr/share/icons/]
-  - [cp -rf config/themes/Nordic-darker /usr/share/themes/]
+  - [rm -rf /usr/share/icons/Dracula /usr/share/themes/Dracula]
+  - [cp -rf config/themes/Dracula-icons /usr/share/icons/Dracula]
+  - [cp -rf config/themes/Dracula /usr/share/themes/]
   - [cp -rf config/wallpaper/lockscreen.png /usr/share/pixmaps/lightdm.background.png]
   - [cp -rf config/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf]
 
@@ -39,10 +39,10 @@
       path: config/wallpaper/background.jpg
     /usr/share/pixmaps/lockscreen.png:
       path: config/wallpaper/lockscreen.png
-    /usr/share/icons/Tela-circle-black:
-      path: config/themes/Tela-circle-black
-    /usr/share/themes/Nordic-darker:
-      path: config/themes/Nordic-darker
+    /usr/share/icons/Dracula:
+      path: config/themes/Dracula-icons
+    /usr/share/themes/Dracula:
+      path: config/themes/Dracula
     ~/.gtkrc-2.0:
       path: config/themes/gtkrc-2.0
 
