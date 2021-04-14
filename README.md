@@ -33,18 +33,15 @@ $ pulseaudio --start
 ```
 
 ## Details
-| Name                  | Value                         	      |
-| --------------------- | ------------------------------------- |
-| Graphical Server      | [Xorg](#xorg)                 	      |
-| Fonts Configuration   | [Fonts](#fonts)                       |
-| Desktop Environment   | *None*                        	      |
-| Window Manager        | [i3](#i3)                     	      |
-| Terminal              | [Kitty](#kitty)               	      |
-| Shell                 | [ZSH](#zsh)                   	      |
-| File Manager          | [Thunar](#thunar)             	      |
-| Internet Browser      | [QuteBrowser](#qute-browser)  	      |
-| Display Manager       | [LightDM](#lightdm)           	      |
-| Network Manager     	| [networkmanager](#network-manager)	  |
+| Name                  | Value                         	        | Name                | Value                                       |
+| --------------------- | --------------------------------------------- | ------------------- | ------------------------------------------- |
+| Graphical Server      | [Xorg](#xorg)                 	        | File Manager        | [Thunar](#thunar)                   	    |
+| Fonts Configuration   | [Fonts](#fonts)                               | Internet Browser    | [QuteBrowser](#qute-browser)  	            |
+| Desktop Environment   | *None*                        	        | Terminal            | [Kitty](#kitty)               	            |
+| Window Manager        | [i3](#i3)                     	        |
+| Shell                 | [ZSH](#zsh)                   	        |
+| Display Manager       | [LightDM](#lightdm)           	        |
+| Network Manager     	| [networkmanager](#network-manager)	        |
 | Audio Server	      	| [PulseAudio](#pulse-audio)		        |
 
 ## Xorg
