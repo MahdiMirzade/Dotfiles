@@ -31,18 +31,20 @@ $ systemctl start lightdm - if lightdm didn't start
 ```
 $ pulseaudio --start
 ```
+| 
+
 
 ## Details
 | Name                  | Value                         	        | Name                  | Value                                             |
 | --------------------- | --------------------------------------------- | --------------------- | ------------------------------------------------- |
-| Graphical Server      | [Xorg](#xorg)                 	        | File Manager          | [Thunar](#thunar)                      	    |
-| Fonts Configuration   | [Fonts](#fonts)                               | Internet Browser      | [QuteBrowser](#qute-browser)  	            |
-| Desktop Environment   | *None*                        	        | Terminal              | [Kitty](#kitty)               	            |
-| Window Manager        | [i3](#i3)                     	        | Shell                 | [ZSH](#zsh)                           	    |
-| Display Manager       | [LightDM](#lightdm)           	        | BitTorrent Client     | [QBittorrent](#qbittorrent)                       |
+| Graphical Server      | [Xorg](#xorg)                 	        | Terminal Emulater     | [Kitty](#kitty)               	            |
+| Fonts Configuration   | [Fonts](#fonts)                               | File Manager          | [Thunar](#thunar)                      	    |
+| Display Manager       | [LightDM](#lightdm)           	        | Internet Browser      | [QuteBrowser](#qute-browser)  	            |
+| Window Manager        | [i3](#i3)                     	        | Program Launcher      | [Roft](#rofi)                                     |
 | Audio Server	      	| [PulseAudio](#pulse-audio)		        | GTK Themes            | [Dracula Theme](#themes)                          |
-| Network Manager     	| [networkmanager](#network-manager)	        |
-| Compositor            | [Picom](#picom)                               |
+| Network Manager     	| [networkmanager](#network-manager)	        | BitTorrent Client     | [QBittorrent](#qbittorrent)                       |
+| Compositor            | [Picom](#picom)                               | 
+| Shell                 | [ZSH](#zsh)                                   |
 
 ## Xorg
 [Xorg](https://x.org) is the most popular display server.
@@ -60,6 +62,22 @@ ttf-dejavu ttf-liberation ttf-hack
 ```
 These packages contains chinese, japanese, korean (CJK) fonts as well.
 
+## LightDM
+[LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
+
+I use *lightdm-gtk-greeter* as my greeter.
+
+**Installation**
+```
+$ pacman -S lightdm lightdm-gtk-greeter
+```
+**Configuration**
+```
+$ sed -i "s/#greeter-session=example-gtk-gnome/\
+greeter-session=lightdm-gtk-greeter/g" \
+/etc/lightdm/lightdm.conf
+```
+
 ## i3
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/i3.gif" alt="i3 Gif" width="400" height="224" align="right">
 
@@ -75,20 +93,33 @@ $ ./config/i3/install
 ```
 [Documentation](/config/i3)
 
-## Kitty
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/kitty.gif" alt="Kitty Gif" width="400" height="266" align="right">
+## Network Manager
 
-[Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
+[networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
 
 **Installation**
 ```
-$ pacman -S kitty
+$ pacman -S networkmanager network-manager-applet
 ```
-**Configuration**
+
+## Pulse Audio
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif" alt="PulseAudio Gif" width="400" height="246" align="right">
+
+[PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) is a featureful, general-purpose sound server.
+
+[pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) is the PulseAudio Volume Control.
+
+**Installation**
 ```
-$ ./config/kitty/install
+$ pacman -S pulseaudio pavucontrol
 ```
-[Documentation](/config/kitty)
+**Starting Daemon**
+```
+$ pulseaudio --start
+```
+
+## Picom
+
 
 ## ZSH
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/zsh.gif" alt="ZSH Gif" width="400" height="262" align="right">
@@ -106,6 +137,21 @@ $ ./config/zsh/install
 [Click Here to Checkout GIF's Source](https://giphy.com/gifs/7OUJtOFzBU4uY)
 
 [Documentation](/config/zsh)
+
+## Kitty
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/kitty.gif" alt="Kitty Gif" width="400" height="266" align="right">
+
+[Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
+
+**Installation**
+```
+$ pacman -S kitty
+```
+**Configuration**
+```
+$ ./config/kitty/install
+```
+[Documentation](/config/kitty)
 
 ## Thunar
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif" alt="Thunar Gif" width="400" height="213" align="right">
@@ -140,46 +186,11 @@ $ ./config/qutebrowser/install
 ```
 [Documentation](/config/qutebrowser)
 
-## LightDM
-[LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
+## Rofi
 
-I use *lightdm-gtk-greeter* as my greeter.
+## Themes
 
-**Installation**
-```
-$ pacman -S lightdm lightdm-gtk-greeter
-```
-**Configuration**
-```
-$ sed -i "s/#greeter-session=example-gtk-gnome/\
-greeter-session=lightdm-gtk-greeter/g" \
-/etc/lightdm/lightdm.conf
-```
-
-## Network Manager
-
-[networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
-
-**Installation**
-```
-$ pacman -S networkmanager network-manager-applet
-```
-
-## Pulse Audio
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif" alt="PulseAudio Gif" width="400" height="246" align="right">
-
-[PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) is a featureful, general-purpose sound server.
-
-[pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/) is the PulseAudio Volume Control.
-
-**Installation**
-```
-$ pacman -S pulseaudio pavucontrol
-```
-**Starting Daemon**
-```
-$ pulseaudio --start
-```
+## QBittorrent
 
 ## ToDO
 - [ ] Writing documentations for configs.
