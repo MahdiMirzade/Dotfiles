@@ -17,8 +17,11 @@ $ ./config/i3/install
 ```
 
 ## ScreenShots
-> Clean Interview without any opened windows. *[only i3status & nm-applet]*
+> Clean Interface without any opened windows. *[only i3status & nm-applet]*
 <img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
+
+> Beautiful, Fast & Powerful *[apps: pfetch,cmatrix,gtop,pipes.sh,cava]*
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.png" alt="Perfect i3" width="512" height="288">
 
 > Launching apps with dmenu
 <img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.dmenu.png" alt="i3 with dmenu launcher" width="512" height="111">
