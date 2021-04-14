@@ -133,11 +133,16 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 ```
 $ pacman -S thunar
 ```
+**Theme Installation**
+```
+$ ./config/themes/install
+```
+[More About This Repo's Themes & Icons](/config/themes)
 
 
 
 ## Qute Browser
-<img src="assets/qutebrowser.gif" alt="QuteBrowser Icon" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.gif" alt="QuteBrowser Icon" width="512" height="288">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
