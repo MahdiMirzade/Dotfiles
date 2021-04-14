@@ -45,6 +45,8 @@
       path: config/themes/Dracula
     ~/.gtkrc-2.0:
       path: config/themes/gtkrc-2.0
+    ~/.config/picom/picom.conf:
+      path: config/picom/picom.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
