@@ -33,16 +33,16 @@ $ pulseaudio --start
 ```
 
 ## Details
-| Name                  | Value                         	        | Name                | Value                                       |
-| --------------------- | --------------------------------------------- | ------------------- | ------------------------------------------- |
-| Graphical Server      | [Xorg](#xorg)                 	        | File Manager        | [Thunar](#thunar)                   	    |
-| Fonts Configuration   | [Fonts](#fonts)                               | Internet Browser    | [QuteBrowser](#qute-browser)  	            |
-| Desktop Environment   | *None*                        	        | Terminal            | [Kitty](#kitty)               	            |
-| Window Manager        | [i3](#i3)                     	        |
-| Shell                 | [ZSH](#zsh)                   	        |
-| Display Manager       | [LightDM](#lightdm)           	        |
+| Name                  | Value                         	        | Name                  | Value                                             |
+| --------------------- | --------------------------------------------- | --------------------- | ------------------------------------------------- |
+| Graphical Server      | [Xorg](#xorg)                 	        | File Manager          | [Thunar](#thunar)                      	    |
+| Fonts Configuration   | [Fonts](#fonts)                               | Internet Browser      | [QuteBrowser](#qute-browser)  	            |
+| Desktop Environment   | *None*                        	        | Terminal              | [Kitty](#kitty)               	            |
+| Window Manager        | [i3](#i3)                     	        | Shell                 | [ZSH](#zsh)                           	    |
+| Display Manager       | [LightDM](#lightdm)           	        | BitTorrent Client     | [QBittorrent](#qbittorrent)                       |
+| Audio Server	      	| [PulseAudio](#pulse-audio)		        | GTK Themes            | [Dracula Theme](#themes)                          |
 | Network Manager     	| [networkmanager](#network-manager)	        |
-| Audio Server	      	| [PulseAudio](#pulse-audio)		        |
+| Compositor            | [Picom](#picom)                               |
 
 ## Xorg
 [Xorg](https://x.org) is the most popular display server.
