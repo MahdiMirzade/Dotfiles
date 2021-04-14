@@ -17,10 +17,10 @@
 - clean: ['~']
 
 - link:
-    /usr/share/icons/Tela-circle-black:
-      path: Tela-circle-black
-    /usr/share/themes/Nordic-darker:
-      path: Nordic-darker
+    /usr/share/icons/Dracula:
+      path: Dracula-icons
+    /usr/share/themes/Dracula:
+      path: Dracula
     ~/.gtkrc-2.0:
       path: gtkrc-2.0
 
