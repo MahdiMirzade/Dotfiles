@@ -71,7 +71,7 @@ These packages contains chinese, japanese, korean (CJK) fonts as well.
 
 
 ## i3
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.png" alt="i3 Pic" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.gif" alt="i3 Gif" width="512" height="288">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
@@ -142,7 +142,7 @@ $ ./config/themes/install
 
 
 ## Qute Browser
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.gif" alt="QuteBrowser Icon" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="512" height="288">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
