@@ -21,7 +21,7 @@ $ ./config/i3/install
 <img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.clean.png" alt="Clean i3wm without any opened windows" width="512" height="288">
 
 > Launching apps with dmenu
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.dmenu.png" alt="i3 with dmenu launcher" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.dmenu.png" alt="i3 with dmenu launcher" width="512" height="111">
 
 > Using [i3status](https://github.com/mahdymirzade/dotfiles/tree/main/config/i3status) as panel
 <img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/i3.status.png" alt="i3 status bar" width="512" height="200">
