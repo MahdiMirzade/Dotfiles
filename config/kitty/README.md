@@ -84,10 +84,9 @@ window_padding_width 4
 ```
 **Font Settings**:
 ```
-font_family      Fira Code Regular Nerd Font Complete
-bold_font        Fira Code Bold Nerd Font Complete
-italic_font      Source Code Pro Italic
-bold_italic_font Source Code Pro Bold Italic
+font_family      Hack
+bold_font        Hack Bold
+italic_font      Hack Italic
 font_size 8.0
 ```
 **Extra - Max history lines & Bell tone**:
