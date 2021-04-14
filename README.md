@@ -1,8 +1,6 @@
 # Dotfiles
 These files are optimized for me (as a desktop user), if you did enjoy,<br/>
-help me improve this repository by pull requests or maybe [donating](#donate).
-
-
+help me improve this repository by pull requests or maybe [donation](#donate).
 
 ## Full Installation
 **Installing all requirements in arch linux for GUI**
@@ -34,8 +32,6 @@ $ systemctl start lightdm - if lightdm didn't start
 $ pulseaudio --start
 ```
 
-
-
 ## Details
 | Name                  | Value                         	      |
 | --------------------- | ------------------------------------- |
@@ -51,8 +47,6 @@ $ pulseaudio --start
 | Network Manager     	| [networkmanager](#network-manager)	  |
 | Audio Server	      	| [PulseAudio](#pulse-audio)		        |
 
-
-
 ## Xorg
 [Xorg](https://x.org) is the most popular display server.
 
@@ -60,8 +54,6 @@ $ pulseaudio --start
 ```
 $ pacman -S xorg
 ```
-
-
 
 ## Fonts
 Install following packages if you are missing characters/fonts/monospace:
@@ -71,10 +63,8 @@ ttf-dejavu ttf-liberation ttf-hack
 ```
 These packages contains chinese, japanese, korean (CJK) fonts as well.
 
-
-
 ## i3
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/i3.gif" alt="i3 Gif" width="512" height="288" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/i3.gif" alt="i3 Gif" width="460" height="258" align="right">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
@@ -88,10 +78,8 @@ $ ./config/i3/install
 ```
 [Documentation](/config/i3)
 
-
-
 ## Kitty
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/kitty.gif" alt="Kitty Gif" width="512" height="341" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/kitty.gif" alt="Kitty Gif" width="460" height="306" align="right">
 
 [Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
@@ -105,10 +93,8 @@ $ ./config/kitty/install
 ```
 [Documentation](/config/kitty)
 
-
-
 ## ZSH
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/zsh.gif" alt="ZSH Gif" width="512" height="337" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/zsh.gif" alt="ZSH Gif" width="460" height="302" align="right">
 
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
@@ -122,7 +108,7 @@ $ ./config/zsh/install
 ```
 
 ## Thunar
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif" alt="Thunar Gif" width="512" height="273" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif" alt="Thunar Gif" width="460" height="245" align="right">
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
@@ -139,10 +125,8 @@ $ ./config/themes/install
 ```
 [More About This Repo's Themes & Icons](/config/themes)
 
-
-
 ## Qute Browser
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="512" height="288" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="460" height="258" align="right">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
@@ -155,8 +139,6 @@ $ pacman -S qutebrowser
 $ ./config/qutebrowser/install
 ```
 [Documentation](/config/qutebrowser)
-
-
 
 ## LightDM
 [LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
@@ -174,8 +156,6 @@ greeter-session=lightdm-gtk-greeter/g" \
 /etc/lightdm/lightdm.conf
 ```
 
-
-
 ## Network Manager
 
 [networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
@@ -185,10 +165,8 @@ greeter-session=lightdm-gtk-greeter/g" \
 $ pacman -S networkmanager network-manager-applet
 ```
 
-
-
 ## Pulse Audio
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif" alt="PulseAudio Gif" width="512" height="315" align="right">
+<imgsrc="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif" alt="PulseAudio Gif" width="460" height="283" align="right">
 
 [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) is a featureful, general-purpose sound server.
 
@@ -202,8 +180,6 @@ $ pacman -S pulseaudio pavucontrol
 ```
 $ pulseaudio --start
 ```
-
-
 
 ## ToDO
 - [ ] Writing documentations for configs.
