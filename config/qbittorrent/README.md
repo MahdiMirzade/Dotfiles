@@ -8,7 +8,7 @@ This theme is added to [qbittorrent](https://github.com/qbittorrent/qBittorrent)
 ## Headers
 - [Install Qbittorrent](#installation)
 - [How to use theme?](#usage)
-- [ScreenShot](#screenshot)
+- [ScreenShots](#screenshots)
 - [Development](#development)
 - [Compiling](#compile)
 
@@ -27,9 +27,8 @@ $ pacman -S qbittorrent
 
 
 
-## ScreenShot
-<img src="screenshot.png" alt="Custom theme" width="512" height="288">
-
+## ScreenShots
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qbittorrent.png" alt="Custom theme" width="512" height="288">
 
 
 ## Development
