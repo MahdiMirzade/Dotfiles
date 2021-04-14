@@ -9,10 +9,13 @@ help me improve this repository by pull requests or maybe [donating](#donate).
 ```
 $ pacman -S xorg lightdm lightdm-gtk-greeter \
 i3 dmenu scrot nitrogen \
-kitty zsh thunar qutebrowser \
+kitty zsh qutebrowser xarchiver \
+thunar thunar-archive-plugin \
+thunar-media-tags-plugin thunar-volman \
 pulseaudio pavucontrol \
 networkmanager network-manager-applet \
-noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
+noto-fonts noto-fonts-cjk \
+noto-fonts-emoji noto-fonts-extra \
 ttf-dejavu ttf-liberation ttf-hack
 ```
 **Clone this repo and do configuration**
@@ -131,7 +134,10 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 **Installation**
 ```
-$ pacman -S thunar
+$ pacman -S thunar \
+thunar-archive-plugin \
+thunar-media-tags-plugin \
+thunar-volman xarchiver
 ```
 **Theme Installation**
 ```
