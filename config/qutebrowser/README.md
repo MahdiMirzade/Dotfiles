@@ -23,13 +23,13 @@ $ ./config/qutebrowser/install
 
 ## ScreenShots
 > Qute Browser is clean, fast and AWESOME!
-<img src="img/qb.clean.png" alt="Clean Interface" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.clean.png" alt="Clean Interface" width="512" height="288">
 
-> Doing Dark Mode Everywhere :D
-<img src="img/qb.darkmode.png" alt="Auto Dark Mode" width="512" height="288">
+> Forcing Dark Mode Everywhere :D
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.darkmode.png" alt="Auto Dark Mode" width="512" height="288">
 
 > Power in your hands with awesome keyboard shortcuts
-<img src="img/qb.keyboard.png" alt="Keyboard Shortcuts" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.keyboard.png" alt="Keyboard Shortcuts" width="512" height="288">
 
 
 
