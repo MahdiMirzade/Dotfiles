@@ -90,7 +90,7 @@ $ ./config/i3/install
 
 
 ## Kitty
-<img src="assets/kitty.gif" alt="Kitty Gif" width="512" height="380">
+<img src="https://github.com/mahdymirzade/assets/blob/main/dotfiles/kitty.png?raw=true" alt="Kitty Gif" width="512" height="380">
 
 [Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
