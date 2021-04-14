@@ -51,8 +51,6 @@ $ pulseaudio --start
 
 
 ## Xorg
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/xorg.png" alt="Xorg Pic" width="512" height="236">
-
 [Xorg](https://x.org) is the most popular display server.
 
 **Installation**
@@ -63,11 +61,10 @@ $ pacman -S xorg
 
 
 ## Fonts
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/fonts.png" alt="Fonts Pic" width="512" height="178">
-
 Install following packages if you are missing characters/fonts/monospace:
 ```
-$ pacman -S noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation
+$ pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
+ttf-dejavu ttf-liberation ttf-hack
 ```
 These packages contains chinese, japanese, korean (CJK) fonts as well.
 
