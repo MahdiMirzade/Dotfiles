@@ -14,9 +14,9 @@
 #
 general {
     #colors = true
-    color_good = "#40ff00"
-    color_degraded = "#ffff00"
-    color_bad = "#ff6400"
+    color_good = "#50FA7B"
+    color_degraded = "#F1FA8C"
+    color_bad = "#FF5555"
     interval = 5
 }
 
