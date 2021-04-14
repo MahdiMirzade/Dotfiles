@@ -159,8 +159,6 @@ $ ./config/qutebrowser/install
 
 
 ## LightDM
-<img src="assets/lightdm.gif" alt="LightDM Login" width="512" height="320">
-
 [LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
 
 I use *lightdm-gtk-greeter* as my greeter.
@@ -207,8 +205,7 @@ $ pulseaudio --start
 
 
 ## ToDO
-- [x] Writing docs for configs.
-- [ ] Change GIFs and JPGs of docs.
+- [ ] Writing documentations for configs.
 - [ ] Make introduction video about this repo.
 - [ ] Threaten people to star this page on github.
 
