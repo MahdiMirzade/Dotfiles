@@ -51,7 +51,7 @@ $ pulseaudio --start
 
 
 ## Xorg
-<img src="assets/xorg.gif" alt="Xorg Gif" width="512" height="122">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/xorg.png" alt="Xorg Pic" width="512" height="236">
 
 [Xorg](https://x.org) is the most popular display server.
 
@@ -63,6 +63,7 @@ $ pacman -S xorg
 
 
 ## Fonts
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/fonts.png" alt="Fonts Pic" width="512" height="178">
 
 Install following packages if you are missing characters/fonts/monospace:
 ```
