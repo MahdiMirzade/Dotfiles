@@ -39,7 +39,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAUL
 bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status"
 bindsym XF86AudioMicMute exec --no-startup-id "pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status"
 
-# Adjust brightness (github.com/haikarainen/light)
+# Adjust brightness 
 bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 10%"
 bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 10%"
 
@@ -221,8 +221,8 @@ bindsym $mod+m bar mode toggle
 # i3-gaps
 smart_gaps on
 smart_borders on
-gaps inner 5
-gaps outer 3
+gaps inner 7
+gaps outer 5
 
 # i3-status
 bar {
