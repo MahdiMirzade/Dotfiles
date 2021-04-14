@@ -12,7 +12,7 @@ i3 dmenu scrot nitrogen \
 kitty zsh thunar qutebrowser \
 pulseaudio pavucontrol \
 networkmanager network-manager-applet \
-noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation
+noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-dejavu ttf-liberation
 ```
 **Clone this repo and do configuration**
 ```
