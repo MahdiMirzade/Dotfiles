@@ -88,7 +88,7 @@ $ ./config/i3/install
 
 
 ## Kitty
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/kitty.gif" alt="Kitty Gif" width="512" height="341">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/kitty.gif" alt="Kitty Gif" width="512" height="341" align="right">
 
 [Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
@@ -125,7 +125,7 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 
 ## Thunar
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/thunar.gif" alt="Thunar Gif" width="512" height="273">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/thunar.gif" alt="Thunar Gif" width="512" height="273" align="right">
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
@@ -142,7 +142,7 @@ $ ./config/themes/install
 
 
 ## Qute Browser
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="512" height="288">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="512" height="288" align="right">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
