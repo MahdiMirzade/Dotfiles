@@ -18,7 +18,7 @@ $ ./config/kitty/install
 ## ScreenShots
 > Kitty is an awesome Terminal Emulater :)
 
-<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/kitty.gif" alt="Kitty Gif" width="512" height="273">
+<img src="https://raw.githubusercontent.com/mahdymirzade/assets/main/dotfiles/kitty.pic" alt="Kitty Pic" width="512" height="341">
 
 ## CheatSheet
 > Clipboard
