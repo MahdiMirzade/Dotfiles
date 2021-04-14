@@ -106,6 +106,9 @@ $ pacman -S zsh
 ```
 $ ./config/zsh/install
 ```
+[Click Here to Checkout GIF's Source](https://giphy.com/gifs/7OUJtOFzBU4uY)
+
+[Documentation](/config/zsh)
 
 ## Thunar
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif" alt="Thunar Gif" width="400" height="213" align="right">
