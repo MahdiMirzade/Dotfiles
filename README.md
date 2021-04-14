@@ -108,24 +108,18 @@ $ ./config/kitty/install
 
 
 ## ZSH
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/zsh.gif" alt="ZSH Gif" width="512" height="337" align="right">
+
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
 **Installation**
 ```
 $ pacman -S zsh
 ```
-**Configuration**
+**Configuration** *[oh-my-zsh will be installed]*
 ```
-# Change your default shell:
-$ chsh -s /bin/zsh
+$ ./config/zsh/install
 ```
-
-```
-# I use oh-my-zsh as well: (No Configuration On Oh-My-Zsh)
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-
 
 ## Thunar
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif" alt="Thunar Gif" width="512" height="273" align="right">
