@@ -8,7 +8,6 @@
 - [Install + Config](#installation)
 - [Kitty CheatSheet](#cheatsheet)
 - [.config/kitty/kitty.conf](#configkittykittyconf)
-- [.config/kitty/color.conf](#configkittycolorconf)
 
 
 
@@ -77,8 +76,12 @@ $ ./config/kitty/install
 
 
 ## .config/kitty/kitty.conf
-Main Configuration of Kitty Terminal.
-
+### Main Configuration of Kitty Terminal.
+**Appearance - Background Opacity & Padding**:
+```
+background_opacity 0.85
+window_padding_width 4
+```
 **Font Settings**:
 ```
 font_family      Fira Code Regular Nerd Font Complete
@@ -86,11 +89,6 @@ bold_font        Fira Code Bold Nerd Font Complete
 italic_font      Source Code Pro Italic
 bold_italic_font Source Code Pro Bold Italic
 font_size 8.0
-```
-**GUI - Background Opacity & Padding**:
-```
-background_opacity 0.85
-window_padding_width 4
 ```
 **Extra - Max history lines & Bell tone**:
 ```
@@ -101,16 +99,7 @@ enable_audio_bell no
 ```
 strip_trailing_spaces smart
 ```
-**Include - color settings**:
-```
-include color.conf
-```
-
-
-
-## .config/kitty/color.conf
-Setting basic colors in Kitty Terminal. *AKA Color Pallet*
-
+### Color settings:
 **Selected Text Color - Foreground & Background**:
 ```
 selection_foreground #161520

@@ -13,11 +13,11 @@
 #
 #
 general {
-        #colors = true
-        color_good = "#40ff00"
-        color_degraded = "#ffff00"
-        color_bad = "#ff6400"
-        interval = 5
+    #colors = true
+    color_good = "#40ff00"
+    color_degraded = "#ffff00"
+    color_bad = "#ff6400"
+    interval = 5
 }
 
 #order += "load"
@@ -31,49 +31,49 @@ order += "volume all"
 order += "tztime local"
 
 load {
-        format = "   %1min "
+    format = "   %1min "
 }
 
 memory {
-        format = " 💿 %used "
-        threshold_degraded = "10%"
+    format = " 💿 %used "
+    threshold_degraded = "10%"
 }
 
 disk "/" {
-        format = "  %avail "
+    format = "  %avail "
 }
 
 disk "/home" {
-        format = "  %avail "
+    format = "  %avail "
 }
 
 wireless _first_ {
-        format_up = "  %essid "
-        format_down = " ✖️ Down "
+    format_up = "  %essid "
+    format_down = " ✖️ Down "
 }
 
 ethernet _first_ {
-        format_up =  "  %ip "
-        format_down = " ✖️ Down "
+    format_up =  "  %ip "
+    format_down = " ✖️ Down "
 }
 
 battery all {
-        format = " %status %percentage "
-        status_chr = "⚡️ CHR"
-        status_bat = " BTR"
-        status_unk = "? UNK"
-        status_full = "☻ FULL"
-        low_threshold = 15
-        integer_battery_capacity = true
-        last_full_capacity = true
+    format = " %status %percentage "
+    status_chr = "⚡️ CHR"
+    status_bat = " BTR"
+    status_unk = "? UNK"
+    status_full = "☻ FULL"
+    low_threshold = 15
+    integer_battery_capacity = true
+    last_full_capacity = true
 }
 
 volume all {
-        format = " 🔊 %volume "
-        format_muted = " 🔈 Muted "
-        device = "default"
+    format = " 🔊 %volume "
+    format_muted = " 🔈 Muted "
+    device = "default"
 }
 
 tztime local {
-        format = " 🕒 %I:%M %p "
+    format = " 🕒 %I:%M %p "
 }

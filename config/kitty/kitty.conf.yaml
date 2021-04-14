@@ -19,8 +19,6 @@
 - link:
     ~/.config/kitty/kitty.conf:
       path: kitty.conf
-    ~/.config/kitty/color.conf:
-      path: color.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

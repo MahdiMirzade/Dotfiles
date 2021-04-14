@@ -20,7 +20,7 @@ client.urgent           #40ff00 #40ff00 #2a2f3a #268BD2
 client.placeholder      #000000 #0c0c0c #ffffff #000000 
 client.background       #2a2f3a
 
-# Set modifier, title-bar-alignment, title-bar-font(and bar{} font) and window-border
+# Set modifier, title-bar-alignment, title-bar-font(and bar{} font), window-border and maximum floating containers
 set $mod Mod4
 title_align center
 font pango:monospace 8
@@ -199,8 +199,20 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
-
 bindsym $mod+r mode "resize"
+
+# Easily access your usable applications
+mode "applications" {
+	# custom applications
+	bindsym e exec --no-startup-id "thunar"
+	bindsym w exec --no-startup-id "qutebrowser"
+	bindsym t exec --no-startup-id "kitty"
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+p mode "default"
+}
+bindsym $mod+p mode "applications"
 
 # bar toggle, hide or show 
 bindsym $mod+m bar mode toggle
@@ -213,19 +225,20 @@ gaps outer 3
 
 # i3-status
 bar {
-	colors {
+    bindsym button2 exec --no-startup-id "scrot"
+    colors {
+        # Base colors
         background #2a2f3a
         statusline #00ffff
         separator #006644
-        
 	# Theme colors          border  backgr. text
         focused_workspace	#00ffff	#00ffff	#2a2f3a
         active_workspace	#2a2f3a	#2a2f3a	#00ffff
         inactive_workspace	#2a2f3a	#2a2f3a	#00ffff
         urgent_workspace	#40ff00 #40ff00 #2a2f3a
     }
-        status_command i3status
-        strip_workspace_numbers yes
-        position bottom
-        height 20
+    status_command i3status
+    strip_workspace_numbers yes
+    position bottom
+    height 20
 }
