@@ -87,7 +87,7 @@ $ ./config/lightdm/install
 **Installation**
 ```
 $ pacman -S i3 dmenu \
-scrot nitrogen rofi
+scrot nitrogen
 ```
 **Configuration**
 ```
@@ -207,6 +207,14 @@ $ ./config/qutebrowser/install
 [Documentation](/config/qutebrowser)
 
 ## Rofi
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/rofi.gif" alt="Rofi Gif" width="400" height="144" align="right">
+
+[Rofi](https://github.com/DaveDavenport/rofi) is a window switcher, application launcher and dmenu replacement.
+
+**Installation**
+```
+$ pacman -S rofi
+```
 
 ## Themes
 
