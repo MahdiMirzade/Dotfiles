@@ -22,14 +22,15 @@ $ git clone https://github.com/mahdymirzade/dotfiles.git
 $ cd dotfiles
 $ ./install
 ```
-**Enable GUI**:
+**Enable LightDM (GUI)**:
 ```
 $ systemctl enable lightdm
-$ systemctl start lightdm - if lightdm didn't start
 ```
-**Enable Audio Server**:
+**Start Audio Server, GUI, NetworkManager**:
 ```
 $ pulseaudio --start
+$ systemctl start lightdm
+$ systemctl start NetworkManager
 ```
 
 
@@ -103,18 +104,24 @@ $ ./config/i3/install
 ```
 $ pacman -S pulseaudio pavucontrol
 ```
-**Starting Daemon**
+**If it didn't Start - Without Reboot**
 ```
 $ pulseaudio --start
 ```
 
 ## Network Manager
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/networkmanager.gif" width="400" height="224" align="right">
 
 [networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
 
 **Installation**
 ```
 $ pacman -S networkmanager network-manager-applet
+$ systemctl enable NetworkManager
+```
+**If it didn't Start - Without Reboot**
+```
+$ systemctl start NetworkManager
 ```
 
 ## Picom
