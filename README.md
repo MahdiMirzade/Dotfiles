@@ -64,7 +64,7 @@ ttf-dejavu ttf-liberation ttf-hack
 These packages contains chinese, japanese, korean (CJK) fonts as well.
 
 ## LightDM
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lightdm.gif" alt="LightDM Gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/lightdm.gif" alt="LightDM Gif" width="400" height="224" align="right">
 
 [LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
 
@@ -80,7 +80,7 @@ $ ./config/lightdm/install
 ```
 
 ## i3
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/i3.gif" alt="i3 Gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/i3.gif" alt="i3 Gif" width="400" height="224" align="right">
 
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
@@ -96,7 +96,7 @@ $ ./config/i3/install
 [Documentation](/config/i3)
 
 ## Pulse Audio
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif" alt="PulseAudio Gif" width="400" height="246" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/pulseaudio.gif" alt="PulseAudio Gif" width="400" height="246" align="right">
 
 [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) is a featureful, general-purpose sound server.
 
@@ -112,7 +112,7 @@ $ pulseaudio --start
 ```
 
 ## Network Manager
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/networkmanager.gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/networkmanager.gif" width="400" height="224" align="right">
 
 [networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
 
@@ -128,7 +128,7 @@ $ systemctl start NetworkManager
 ```
 
 ## Picom
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/picom.gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/picom.gif" width="400" height="224" align="right">
 
 [Picom](https://github.com/yshui/picom) is a X compositor which is forked from the original [Compton](https://github.com/chjj/compton) because it seems to have become unmaintained.
 
@@ -147,7 +147,7 @@ $ picom -b
 [Documentation](/config/picom)
 
 ## ZSH
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/zsh.gif" alt="ZSH Gif" width="400" height="262" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/zsh.gif" alt="ZSH Gif" width="400" height="262" align="right">
 
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
@@ -164,7 +164,7 @@ $ ./config/zsh/install
 [Documentation](/config/zsh)
 
 ## Kitty
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/kitty.gif" alt="Kitty Gif" width="400" height="266" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/kitty.gif" alt="Kitty Gif" width="400" height="266" align="right">
 
 [Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
@@ -179,7 +179,7 @@ $ ./config/kitty/install
 [Documentation](/config/kitty)
 
 ## Thunar
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif" alt="Thunar Gif" width="400" height="213" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/thunar.gif" alt="Thunar Gif" width="400" height="213" align="right">
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
@@ -192,7 +192,7 @@ thunar-volman xarchiver
 ```
 
 ## Qute Browser
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/qutebrowser.gif" alt="QuteBrowser Gif" width="400" height="224" align="right">
 
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
@@ -207,7 +207,7 @@ $ ./config/qutebrowser/install
 [Documentation](/config/qutebrowser)
 
 ## Rofi
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/rofi.gif" alt="Rofi Gif" width="400" height="144" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/rofi.gif" alt="Rofi Gif" width="400" height="144" align="right">
 
 [Rofi](https://github.com/DaveDavenport/rofi) is a window switcher, application launcher and dmenu replacement.
 
@@ -217,7 +217,7 @@ $ pacman -S rofi
 ```
 
 ## Themes
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/gtk.gif" alt="GTK Gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/gtk.gif" alt="GTK Gif" width="400" height="224" align="right">
 
 [GTK](https://www.gtk.org/), or the GIMP Toolkit, is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off tools to complete application suites.
 
@@ -234,7 +234,7 @@ $ ./config/themes/install
 
 
 ## QBittorrent
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qbittorrent.gif" alt="QBittorrent Gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/qbittorrent.gif" alt="QBittorrent Gif" width="400" height="224" align="right">
 
 [QBittorrent](https://www.qbittorrent.org) is an advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.
 
@@ -251,7 +251,7 @@ $ pacman -S qbittorrent
 [Documentation](/config/qbittorrent)
 
 ## Donate
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/heart.gif" alt="Donation Gif" width="200" height="193" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/heart.gif" alt="Donation Gif" width="200" height="193" align="right">
 
 I put some time on this project and I really don't think it has any values but I would love some cryptocurrencies:
 - **BTC:** `1H5YUVVif9u9JNBVaboCwsBvHAoDeAW5yc`
