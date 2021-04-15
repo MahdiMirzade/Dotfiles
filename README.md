@@ -39,7 +39,7 @@ $ pulseaudio --start
 | Graphical Server      | [Xorg](#xorg)                 	        | Terminal Emulater     | [Kitty](#kitty)               	            |
 | Fonts Configuration   | [Fonts](#fonts)                               | File Manager          | [Thunar](#thunar)                      	    |
 | Display Manager       | [LightDM](#lightdm)           	        | Internet Browser      | [QuteBrowser](#qute-browser)  	            |
-| Window Manager        | [i3](#i3)                     	        | Program Launcher      | [Roft](#rofi)                                     |
+| Window Manager        | [i3](#i3)                     	        | Program Launcher      | [Rofi](#rofi)                                     |
 | Audio Server	      	| [PulseAudio](#pulse-audio)		        | GTK Themes            | [Dracula Theme](#themes)                          |
 | Network Manager     	| [networkmanager](#network-manager)	        | BitTorrent Client     | [QBittorrent](#qbittorrent)                       |
 | Compositor            | [Picom](#picom)                               | 
@@ -94,15 +94,6 @@ $ ./config/i3/install
 ```
 [Documentation](/config/i3)
 
-## Network Manager
-
-[networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
-
-**Installation**
-```
-$ pacman -S networkmanager network-manager-applet
-```
-
 ## Pulse Audio
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif" alt="PulseAudio Gif" width="400" height="246" align="right">
 
@@ -117,6 +108,15 @@ $ pacman -S pulseaudio pavucontrol
 **Starting Daemon**
 ```
 $ pulseaudio --start
+```
+
+## Network Manager
+
+[networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
+
+**Installation**
+```
+$ pacman -S networkmanager network-manager-applet
 ```
 
 ## Picom
