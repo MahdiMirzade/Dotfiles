@@ -217,6 +217,7 @@ $ pacman -S rofi
 ```
 
 ## Themes
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/gtk.gif" alt="GTK Gif" width="400" height="224" align="right">
 
 [GTK](https://www.gtk.org/), or the GIMP Toolkit, is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off tools to complete application suites.
 
