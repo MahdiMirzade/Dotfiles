@@ -233,6 +233,7 @@ $ ./config/themes/install
 
 
 ## QBittorrent
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qbittorrent.gif" alt="QBittorrent Gif" width="400" height="224" align="right">
 
 [QBittorrent](https://www.qbittorrent.org) is an advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.
 
