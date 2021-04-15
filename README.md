@@ -6,11 +6,11 @@ help me improve this repository by pull requests or maybe [donation](#donate).
 **Installing all requirements in arch linux for GUI**
 ```
 $ pacman -S xorg lightdm lightdm-gtk-greeter \
-i3 dmenu scrot nitrogen \
+i3 dmenu scrot nitrogen rofi \
 kitty zsh qutebrowser xarchiver \
 thunar thunar-archive-plugin \
 thunar-media-tags-plugin thunar-volman \
-pulseaudio pavucontrol \
+pulseaudio pavucontrol picom \
 networkmanager network-manager-applet \
 noto-fonts noto-fonts-cjk \
 noto-fonts-emoji noto-fonts-extra \
@@ -26,7 +26,7 @@ $ ./install
 ```
 $ systemctl enable lightdm
 ```
-**Start Audio Server, GUI, NetworkManager**:
+**Start Audio Server, GUI, NetworkManager - Without Reboot**:
 ```
 $ pulseaudio --start
 $ systemctl start lightdm
@@ -57,7 +57,8 @@ $ pacman -S xorg
 ## Fonts
 Install following packages if you are missing characters/fonts/monospace:
 ```
-$ pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
+$ pacman -S noto-fonts noto-fonts-cjk \
+noto-fonts-emoji noto-fonts-extra \
 ttf-dejavu ttf-liberation ttf-hack
 ```
 These packages contains chinese, japanese, korean (CJK) fonts as well.
@@ -85,7 +86,8 @@ $ ./config/lightdm/install
 
 **Installation**
 ```
-$ pacman -S i3 dmenu scrot nitrogen
+$ pacman -S i3 dmenu \
+scrot nitrogen rofi
 ```
 **Configuration**
 ```
@@ -116,7 +118,8 @@ $ pulseaudio --start
 
 **Installation**
 ```
-$ pacman -S networkmanager network-manager-applet
+$ pacman -S networkmanager \
+network-manager-applet
 $ systemctl enable NetworkManager
 ```
 **If it didn't Start - Without Reboot**
