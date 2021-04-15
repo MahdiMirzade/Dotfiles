@@ -31,7 +31,6 @@ $ systemctl start lightdm - if lightdm didn't start
 ```
 $ pulseaudio --start
 ```
-| 
 
 
 ## Details
@@ -63,7 +62,7 @@ ttf-dejavu ttf-liberation ttf-hack
 These packages contains chinese, japanese, korean (CJK) fonts as well.
 
 ## LightDM
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lightdm.git" alt="LightDM Gif" width="400" height="224" align="right">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lightdm.gif" alt="LightDM Gif" width="400" height="224" align="right">
 
 [LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
 
