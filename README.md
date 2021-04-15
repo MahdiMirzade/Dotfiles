@@ -251,6 +251,8 @@ $ pacman -S qbittorrent
 [Documentation](/config/qbittorrent)
 
 ## Donate
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/heart.gif" alt="Donation Gif" width="400" height="386" align="right">
+
 I put some time on this project and I really don't think it has any values but I would love some cryptocurrencies:
 - **BTC:** `1H5YUVVif9u9JNBVaboCwsBvHAoDeAW5yc`
 - **ETH:** `0x05A11A118eb3BDbD015c2fdd3F843dBe422C2955`
