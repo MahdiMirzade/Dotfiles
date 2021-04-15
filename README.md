@@ -218,6 +218,13 @@ $ pacman -S rofi
 
 ## Themes
 
+[GTK](https://www.gtk.org/), or the GIMP Toolkit, is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off tools to complete application suites.
+
+**Installation**
+```
+# GTK is probably installed, if not:
+$ pacman -S gtk2 gtk3 gtk4
+```
 **Configuration**
 ```
 $ ./config/themes/install
