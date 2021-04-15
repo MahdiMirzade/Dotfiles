@@ -47,6 +47,8 @@ $ systemctl start NetworkManager
 | Shell                 | [ZSH](#zsh)                                   |
 
 ## Xorg
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/xorg.gif" alt="Xorg Gif" width="400" height="377" align="right">
+
 [Xorg](https://x.org) is the most popular display server.
 
 **Installation**
