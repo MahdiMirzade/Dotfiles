@@ -3,12 +3,16 @@ These files are optimized for me (as a desktop user), if you did enjoy,<br/>
 help me improve this repository by pull requests or maybe [donation](#donate).
 
 ## Manual Installation
+**Be sure that your package databases are up-to-date**
+```
+$ pacman -Sy
+```
 **Installing all requirements in arch linux for GUI**
 ```
 $ pacman -S xorg lightdm lightdm-gtk-greeter \
 i3 dmenu scrot nitrogen rofi \
 kitty zsh qutebrowser xarchiver \
-thunar thunar-archive-plugin \
+thunar gvfs thunar-archive-plugin \
 thunar-media-tags-plugin thunar-volman \
 pulseaudio pavucontrol picom \
 networkmanager network-manager-applet \
@@ -110,8 +114,7 @@ $ pulseaudio --start
 ```
 
 ## Network Manager
-<a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/networkmanager.gif" width="400" height="224" align="right">
-"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/networkmanager.gif" width="400" height="224" align="right"></a>
+<a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/networkmanager.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/networkmanager.gif" width="400" height="224" align="right"></a>
 [networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
 
 **Installation**
@@ -126,8 +129,7 @@ $ systemctl start NetworkManager
 ```
 
 ## Picom
-<a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/picom.gif" width="400" height="224" align="right">
-"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/picom.gif" width="400" height="224" align="right"></a>
+<a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/picom.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/picom.gif" width="400" height="224" align="right"></a>
 [Picom](https://github.com/yshui/picom) is a X compositor which is forked from the original [Compton](https://github.com/chjj/compton) because it seems to have become unmaintained.
 
 **Installation**
@@ -180,7 +182,7 @@ $ ./config/kitty/install
 
 **Installation**
 ```
-$ pacman -S thunar \
+$ pacman -S thunar gvfs \
 thunar-archive-plugin \
 thunar-media-tags-plugin \
 thunar-volman xarchiver
