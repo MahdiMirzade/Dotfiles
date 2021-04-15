@@ -15,6 +15,8 @@
   - [cp -rf config/themes/Dracula /usr/share/themes/]
   - [cp -rf config/wallpaper/lockscreen.png /usr/share/pixmaps/lightdm.background.png]
   - [cp -rf config/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf]
+  - [chsh -s /bin/zsh]
+  - [sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"]
 
 - defaults:
     link:
@@ -47,6 +49,8 @@
       path: config/themes/gtkrc-2.0
     ~/.config/picom/picom.conf:
       path: config/picom/picom.conf
+    ~/.zshrc:
+      path: config/zsh/zshrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

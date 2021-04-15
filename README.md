@@ -2,7 +2,7 @@
 These files are optimized for me (as a desktop user), if you did enjoy,<br/>
 help me improve this repository by pull requests or maybe [donation](#donate).
 
-## Full Installation
+## Manual Installation
 **Installing all requirements in arch linux for GUI**
 ```
 $ pacman -S xorg lightdm lightdm-gtk-greeter \
@@ -22,8 +22,9 @@ $ git clone https://github.com/mahdymirzade/dotfiles.git
 $ cd dotfiles
 $ ./install
 ```
-**Enable LightDM (GUI)**:
+**Enable NetworkManager, LightDM (GUI)**:
 ```
+$ systemctl enable NetworkManager
 $ systemctl enable lightdm
 ```
 **Start Audio Server, GUI, NetworkManager - Without Reboot**:
