@@ -74,9 +74,7 @@ $ pacman -S lightdm lightdm-gtk-greeter
 ```
 **Configuration**
 ```
-$ sed -i "s/#greeter-session=example-gtk-gnome/\
-greeter-session=lightdm-gtk-greeter/g" \
-/etc/lightdm/lightdm.conf
+$ ./config/lightdm/install
 ```
 
 ## i3
@@ -182,11 +180,6 @@ thunar-archive-plugin \
 thunar-media-tags-plugin \
 thunar-volman xarchiver
 ```
-**Theme Installation**
-```
-$ ./config/themes/install
-```
-[More About This Repo's Themes & Icons](/config/themes)
 
 ## Qute Browser
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qutebrowser.gif" alt="QuteBrowser Gif" width="400" height="224" align="right">
@@ -206,6 +199,13 @@ $ ./config/qutebrowser/install
 ## Rofi
 
 ## Themes
+
+**Configuration**
+```
+$ ./config/themes/install
+```
+[Documentation](/config/themes)
+
 
 ## QBittorrent
 
