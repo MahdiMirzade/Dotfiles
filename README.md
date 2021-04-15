@@ -120,7 +120,23 @@ $ pulseaudio --start
 ```
 
 ## Picom
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/picom.gif" width="400" height="224" align="right">
 
+[Picom](https://github.com/yshui/picom) is a X compositor which is forked from the original [Compton](https://github.com/chjj/compton) because it seems to have become unmaintained.
+
+**Installation**
+```
+$ pacman -S picom
+```
+**Confuration**
+```
+$ ./config/picom/install
+```
+**If it didn't Start - Without Reboot**
+```
+$ picom -b
+```
+[Documentation](/config/picom)
 
 ## ZSH
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/zsh.gif" alt="ZSH Gif" width="400" height="262" align="right">
