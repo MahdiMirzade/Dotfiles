@@ -234,10 +234,19 @@ $ ./config/themes/install
 
 ## QBittorrent
 
-## ToDO
-- [ ] Writing documentations for configs.
-- [ ] Make introduction video about this repo.
-- [ ] Threaten people to star this page on github.
+[QBittorrent](https://www.qbittorrent.org) is an advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.
+
+**Installation**
+```
+$ pacman -S qbittorrent
+```
+**Theme Usage**
+1. [Click Here to Download .qbtheme File](https://github.com/mahdymirzade/dotfiles/raw/main/config/qbittorrent/qbittorrent.qbtheme)
+2. Enable theme selection from menu: → Tools → Options → Behavior → Interface → Use custom UI Theme
+3. In 'UI Theme file' click on the file icon and select your '.qbtheme' file
+4. Restart qbittorrent to apply theme
+
+[Documentation](/config/qbittorrent)
 
 ## Donate
 I put some time on this project and I really don't think it has any values but I would love some cryptocurrencies:
