@@ -1,6 +1,7 @@
 # Dotfiles
-These files are optimized for me (as a desktop user), if you did enjoy,<br/>
-help me improve this repository by pull requests or maybe [donation](#donate).
+Dotfiles actually means hidden files and directories.<br/>
+For example '.mahdy' is a **dotfile**, we name config files **dotfiles**,<br/>
+Because they are mostly in '.config' directory.
 
 ## Installation
 You can use these methods to setup.
