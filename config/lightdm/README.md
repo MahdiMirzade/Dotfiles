@@ -29,7 +29,7 @@ $ systemctl start lightdm
 ## ScreenShots
 > LightDM is cool :)
 
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lightdm.png" alt="Kitty Pic" width="512" height="341">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lightdm.png" alt="LightDM Pic" width="512" height="341">
 
 ## /etc/lightdm/lightdm.conf
 **Main configuration of lightdm.**
