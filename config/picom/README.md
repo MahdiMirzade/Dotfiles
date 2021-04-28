@@ -28,7 +28,7 @@ $ picom -b
 ## ScreenShots
 > Picom is great :)
 
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/picom.png" alt="Picom Pic" width="512" height="341">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/picom.png" alt="Picom Pic" width="512" height="288">
 
 ## ~/.config/picom/picom.conf
 **Main configuration of picom. - only mentioned customized options**
