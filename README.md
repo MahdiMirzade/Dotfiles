@@ -81,7 +81,7 @@ I highly suggest you to take a moment and star this project It's so fun to do :)
 | Window Manager        | [i3](#i3)                     	        | Program Launcher      | [Rofi](#rofi)                                     |
 | Audio Server	      	| [PulseAudio](#pulse-audio)		        | GTK Themes            | [Dracula Theme](#themes)                          |
 | Network Manager     	| [networkmanager](#network-manager)	        | BitTorrent Client     | [QBittorrent](#qbittorrent)                       |
-| Compositor            | [Picom](#picom)                               | 
+| Compositor            | [Picom](#picom)                               | Text Editor           | [Vim](#vim)                                       |
 | Shell                 | [ZSH](#zsh)                                   |
 
 ### Xorg
@@ -275,6 +275,21 @@ $ pacman -S qbittorrent
 4. Restart qbittorrent to apply theme
 
 [Documentation](/config/qbittorrent)
+
+### Vim
+<a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/vim.png"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/vim.png" alt="Vim Pic" width="400" height="220" align="right"></a>
+[Vim](https://www.vim.org) is a highly configurable text editor built to make creating and changing any kind of text very efficient.
+
+**Installation**
+```
+pacman -S vim
+```
+**Configuration**
+```
+$ ./config/vim/install
+```
+[Documentation](/config/vim)
+
 
 ## Donate
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/heart.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/heart.gif" alt="Donation Gif" width="200" height="193" align="right"></a>
