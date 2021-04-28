@@ -81,8 +81,8 @@ I highly suggest you to take a moment and star this project It's so fun to do :)
 | Window Manager        | [i3](#i3)                     	        | Program Launcher      | [Rofi](#rofi)                                     |
 | Audio Server	      	| [PulseAudio](#pulse-audio)		        | GTK Themes            | [Dracula Theme](#themes)                          |
 | Network Manager     	| [networkmanager](#network-manager)	        | BitTorrent Client     | [QBittorrent](#qbittorrent)                       |
-| Compositor            | [Picom](#picom)                               | Text Editor           | [Vim](#vim)                                       |
-| Shell                 | [ZSH](#zsh)                                   |
+| Compositor            | [Picom](#picom)                               | CLI Text Editor       | [Vim](#vim)                                       |
+| Shell                 | [ZSH](#zsh)                                   | GUI Text Editor       | Soon                                              |
 
 ### Xorg
 [Xorg](https://x.org) is the most popular display server.
