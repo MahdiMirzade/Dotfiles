@@ -112,8 +112,13 @@ requirements () {
         noto-fonts-emoji noto-fonts-extra \
         ttf-dejavu ttf-liberation ttf-hack \
         -q --needed --noconfirm --color=auto
+    if [[ -e /opt/dotfiles ]]; then
+        rm -rf /opt/dotfiles
+        logger "red" "Removed /opt/dotfiles. Reinstalling in a minute..." "bold"
+    fi
     if [[ -e ~/.oh-my-zsh ]]; then
         rm -rf ~/.oh-my-zsh
+        logger "red" "Removed ~/.oh-my-zsh. Reinstalling in a minute..." "bold"
     fi
 }
 
