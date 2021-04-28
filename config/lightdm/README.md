@@ -7,7 +7,7 @@
 - [Enabling + Starting](#enableandstart)
 - [LightDM ScreenShots](#screenshots)
 - [/etc/lightdm/lightdm.conf](#etclightdmlightdmgtkgreeterconf)
-- [/etc/lightdm/lightdm-gtk-greeter.conf](#etclightdmlightdmgtkgreeterconf)
+- [/etc/lightdm/lightdm-gtk-greeter.conf](#etclightdmlightdm-gtk-greeterconf)
 
 ## Installation
 ```
