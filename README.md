@@ -2,12 +2,31 @@
 These files are optimized for me (as a desktop user), if you did enjoy,<br/>
 help me improve this repository by pull requests or maybe [donation](#donate).
 
-## Manual Installation
-**Be sure that your package databases are up-to-date**
+## Installation
+You can use these methods to setup.
+- [Automatic Installation](#auto-install)
+- [Manual Installation](#manual-install)
+
+### Auto Install
+One-line install command:
+```
+$ curl -L https://git.io/J3UPC | bash
+```
+> If you are using this as a non-root user,<br/>
+please use 'sudo bash' instead of 'bash':<br/>
+curl -L https://git.io/J3UPC | sudo bash
+
+### Manual Install
+These are the instructions for manual installation.
+
+#### Step 1: Update databases
+You should be sure that your package databases are up-to-date:
 ```
 $ pacman -Sy
 ```
-**Installing all requirements in arch linux for GUI**
+
+#### Step 2: Install requirements
+This command is for installing all requirements in arch linux:
 ```
 $ pacman -S xorg lightdm lightdm-gtk-greeter \
 i3 dmenu scrot nitrogen rofi \
@@ -20,24 +39,38 @@ noto-fonts noto-fonts-cjk \
 noto-fonts-emoji noto-fonts-extra \
 ttf-dejavu ttf-liberation ttf-hack
 ```
-**Clone this repo and do configuration**
+
+#### Step 3: Clone this repository
+Clone this repo and start setting up configurations:
 ```
 $ git clone https://github.com/mahdymirzade/dotfiles.git
 $ cd dotfiles
 $ ./install
 ```
-**Enable NetworkManager, LightDM (GUI)**:
+
+#### Step 4: Enable services using systemd
+Enable NetworkManager, LightDM (GUI):
 ```
-$ systemctl enable NetworkManager
 $ systemctl enable lightdm
+$ systemctl enable NetworkManager
 ```
-**Start Audio Server, GUI, NetworkManager - Without Reboot**:
+
+##### Step 4.1: Start services
+Start GUI, NetworkManager - Without Reboot:
 ```
-$ pulseaudio --start
 $ systemctl start lightdm
 $ systemctl start NetworkManager
 ```
 
+##### Step 4.2: Start audio-server daemon
+Start Audio Server - Without Reboot:
+```
+$ pulseaudio --start
+```
+
+#### Step 5: You're Done
+Now that you've finished take some rest.<br/>
+I highly suggest you to take a moment and star this project It's so fun to do :)
 
 ## Details
 | Name                  | Value                         	        | Name                  | Value                                             |
