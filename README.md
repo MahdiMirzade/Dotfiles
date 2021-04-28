@@ -10,11 +10,11 @@ You can use these methods to setup.
 ### Auto Install
 One-line install command:
 ```
-$ curl -L https://git.io/J3UPC | bash
+$ curl -Ls https://git.io/J3UPC | bash
 ```
 > If you are using this as a non-root user,<br/>
 please use 'sudo bash' instead of 'bash':<br/>
-curl -L https://git.io/J3UPC | sudo bash
+curl -Ls https://git.io/J3UPC | sudo bash
 
 ### Manual Install
 These are the instructions for manual installation.
@@ -84,7 +84,7 @@ I highly suggest you to take a moment and star this project It's so fun to do :)
 | Compositor            | [Picom](#picom)                               | 
 | Shell                 | [ZSH](#zsh)                                   |
 
-## Xorg
+### Xorg
 [Xorg](https://x.org) is the most popular display server.
 
 **Installation**
@@ -92,7 +92,7 @@ I highly suggest you to take a moment and star this project It's so fun to do :)
 $ pacman -S xorg
 ```
 
-## Fonts
+### Fonts
 Install following packages if you are missing characters/fonts/monospace:
 ```
 $ pacman -S noto-fonts noto-fonts-cjk \
@@ -101,7 +101,7 @@ ttf-dejavu ttf-liberation ttf-hack
 ```
 These packages contains chinese, japanese, korean (CJK) fonts as well.
 
-## LightDM
+### LightDM
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lightdm.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/lightdm.gif" alt="LightDM Gif" width="400" height="224" align="right"></a>
 [LightDM](https://github.com/canonical/lightdm) is a cross-desktop display manager.
 
@@ -116,7 +116,7 @@ $ pacman -S lightdm lightdm-gtk-greeter
 $ ./config/lightdm/install
 ```
 
-## i3
+### i3
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/i3.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/i3.gif" alt="i3 Gif" width="400" height="224" align="right"></a>
 [i3](https://i3wm.org) is a tiling window manager and I use it as my daily WM.
 
@@ -131,7 +131,7 @@ $ ./config/i3/install
 ```
 [Documentation](/config/i3)
 
-## Pulse Audio
+### Pulse Audio
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/pulseaudio.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/pulseaudio.gif" alt="PulseAudio Gif" width="400" height="246" align="right"></a>
 [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) is a featureful, general-purpose sound server.
 
@@ -146,7 +146,7 @@ $ pacman -S pulseaudio pavucontrol
 $ pulseaudio --start
 ```
 
-## Network Manager
+### Network Manager
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/networkmanager.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/networkmanager.gif" width="400" height="224" align="right"></a>
 [networkmanager](https://wiki.gnome.org/Projects/NetworkManager) is a network connection manager and user applications.
 
@@ -161,7 +161,7 @@ $ systemctl enable NetworkManager
 $ systemctl start NetworkManager
 ```
 
-## Picom
+### Picom
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/picom.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/picom.gif" width="400" height="224" align="right"></a>
 [Picom](https://github.com/yshui/picom) is a X compositor which is forked from the original [Compton](https://github.com/chjj/compton) because it seems to have become unmaintained.
 
@@ -179,7 +179,7 @@ $ picom -b
 ```
 [Documentation](/config/picom)
 
-## ZSH
+### ZSH
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/zsh.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/zsh.gif" alt="ZSH Gif" width="400" height="262" align="right"></a>
 [Zsh](https://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language.
 
@@ -195,7 +195,7 @@ $ ./config/zsh/install
 
 [Documentation](/config/zsh)
 
-## Kitty
+### Kitty
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/kitty.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/kitty.gif" alt="Kitty Gif" width="400" height="266" align="right"></a>
 [Kitty](https://sw.kovidgoyal.net/kitty) - the fast, featureful, GPU based terminal emulator
 
@@ -209,7 +209,7 @@ $ ./config/kitty/install
 ```
 [Documentation](/config/kitty)
 
-## Thunar
+### Thunar
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/thunar.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/thunar.gif" alt="Thunar Gif" width="400" height="213" align="right"></a>
 [Thunar](https://docs.xfce.org/xfce/thunar/start) is a modern file manager for the Xfce Desktop Environment.
 
@@ -221,7 +221,7 @@ thunar-media-tags-plugin \
 thunar-volman xarchiver
 ```
 
-## Qute Browser
+### Qute Browser
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qutebrowser.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/qutebrowser.gif" alt="QuteBrowser Gif" width="400" height="224" align="right"></a>
 [Qute Browser](https://qutebrowser.org) is a Vim-style Web Browser.
 
@@ -235,7 +235,7 @@ $ ./config/qutebrowser/install
 ```
 [Documentation](/config/qutebrowser)
 
-## Rofi
+### Rofi
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/rofi.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/rofi.gif" alt="Rofi Gif" width="400" height="144" align="right"></a>
 [Rofi](https://github.com/DaveDavenport/rofi) is a window switcher, application launcher and dmenu replacement.
 
@@ -244,7 +244,7 @@ $ ./config/qutebrowser/install
 $ pacman -S rofi
 ```
 
-## Themes
+### Themes
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/gtk.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/gtk.gif" alt="GTK Gif" width="400" height="224" align="right"></a>
 [GTK](https://www.gtk.org/), or the GIMP Toolkit, is a multi-platform toolkit for creating graphical user interfaces. Offering a complete set of widgets, GTK is suitable for projects ranging from small one-off tools to complete application suites.
 
@@ -260,7 +260,7 @@ $ ./config/themes/install
 [Documentation](/config/themes)
 
 
-## QBittorrent
+### QBittorrent
 <a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/qbittorrent.gif"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/lq/qbittorrent.gif" alt="QBittorrent Gif" width="400" height="224" align="right"></a>
 [QBittorrent](https://www.qbittorrent.org) is an advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.
 
