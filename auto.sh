@@ -112,13 +112,16 @@ requirements () {
         noto-fonts-emoji noto-fonts-extra \
         ttf-dejavu ttf-liberation ttf-hack \
         -q --needed --noconfirm --color=auto
-    git clone https://github.com/mahdymirzade/dotfiles.git /opt/dotfiles
-}
-
-installation () {
+    if [[ -e /opt/dotfiles ]]; then
+        rm -rf /opt/dotfiles
+    fi
     if [[ -e ~/.oh-my-zsh ]]; then
         rm -rf ~/.oh-my-zsh
     fi
+}
+
+installation () {
+    git clone https://github.com/mahdymirzade/dotfiles.git /opt/dotfiles
     /opt/dotfiles/install
     systemctl enable NetworkManager
     systemctl enable lightdm
@@ -129,6 +132,8 @@ installation () {
 main () {
     clear
     helloworld
+    separator
+    requirements
     separator
     installation
     separator
