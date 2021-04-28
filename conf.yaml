@@ -35,8 +35,6 @@
       path: config/i3status/config
     ~/.config/kitty/kitty.conf:
       path: config/kitty/kitty.conf
-    ~/.config/kitty/color.conf:
-      path: config/kitty/color.conf
     /usr/share/pixmaps/background.jpg:
       path: config/wallpaper/background.jpg
     /usr/share/pixmaps/lockscreen.png:
