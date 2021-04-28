@@ -62,7 +62,7 @@ ctrlc () {
     logger "" ""
     logger "red" "You have done a [Ctrl-C], performing clean up..."
     killall -s KILL -q pacman git pulseaudio > /dev/null &
-    rm -rf /opt/dotfiles > /dev/nukk &
+    rm -rf /opt/dotfiles > /dev/null &
     logger "red" "Exiting Installer..."
     exit 2
 }
@@ -102,7 +102,7 @@ requirements () {
     done
     echo ""
     pacman -Sy xorg lightdm lightdm-gtk-greeter \
-        i3 dmenu scrot nitrogen rofi \
+        i3-gaps dmenu scrot nitrogen rofi \
         kitty zsh qutebrowser xarchiver \
         thunar gvfs thunar-archive-plugin \
         thunar-media-tags-plugin thunar-volman \
@@ -112,9 +112,6 @@ requirements () {
         noto-fonts-emoji noto-fonts-extra \
         ttf-dejavu ttf-liberation ttf-hack \
         -q --needed --noconfirm --color=auto
-    if [[ -e /opt/dotfiles ]]; then
-        rm -rf /opt/dotfiles
-    fi
     if [[ -e ~/.oh-my-zsh ]]; then
         rm -rf ~/.oh-my-zsh
     fi
