@@ -1,0 +1,58 @@
+" Enable Syntax Coloring
+syntax on
+
+" Show Line Numbers
+set number
+highlight LineNr ctermfg=white
+
+" Show Matching Brackets 
+set showmatch
+
+" Search Settings
+set hlsearch
+set smartcase
+set ignorecase
+set incsearch
+
+" Indentation
+set autoindent
+set expandtab
+set shiftwidth=4
+set smartindent
+set smarttab
+set softtabstop=4
+
+" Display 5 lines above/below when scrolling
+set scrolloff=5
+
+" Fix common backspace problems
+set backspace=indent,eol,start
+
+set modelines=0
+
+" Encoding
+set encoding=utf-8
+
+" Status Line Display
+set laststatus=2
+hi StatusLine ctermfg=NONE ctermbg=red cterm=NONE
+hi StatusLineNC ctermfg=black ctermbg=red cterm=NONE
+hi User1 ctermfg=black ctermbg=magenta
+hi User2 ctermfg=NONE ctermbg=NONE
+hi User3 ctermfg=black ctermbg=blue
+hi User4 ctermfg=black ctermbg=cyan
+set statusline=\                    " Padding
+set statusline+=%f                  " Path to the file
+set statusline+=\ %1*\              " Padding & switch colour
+set statusline+=%y                  " File type
+set statusline+=\ %2*\              " Padding & switch colour
+set statusline+=%=                  " Switch to right-side
+set statusline+=\ %3*\              " Padding & switch colour
+set statusline+=line                " of Text
+set statusline+=\                   " Padding
+set statusline+=%l                  " Current line
+set statusline+=\ %4*\              " Padding & switch colour
+set statusline+=of                  " of Text
+set statusline+=\                   " Padding
+set statusline+=%L                  " Total line
+set statusline+=\                   " Padding
