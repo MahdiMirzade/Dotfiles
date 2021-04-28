@@ -29,7 +29,7 @@ $ pacman -Sy
 This command is for installing all requirements in arch linux:
 ```
 $ pacman -S xorg lightdm lightdm-gtk-greeter \
-i3 dmenu scrot nitrogen rofi \
+i3-gaps dmenu scrot nitrogen rofi \
 kitty zsh qutebrowser xarchiver \
 thunar gvfs thunar-archive-plugin \
 thunar-media-tags-plugin thunar-volman \

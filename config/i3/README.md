@@ -11,7 +11,7 @@
 
 ## Installation
 ```
-$ pacman -S i3 dmenu scrot nitrogen
+$ pacman -S i3-gaps dmenu scrot nitrogen
 $ git clone https://github.com/mahdymirzade/dotfiles.git && cd dotfiles
 $ ./config/i3/install
 ```
