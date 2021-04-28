@@ -4,9 +4,9 @@
 
 ## Headers
 - [Install + Config](#installation)
-- [Enabling + Starting](#enableandstart)
+- [Enabling + Starting](#enable-and-start)
 - [LightDM ScreenShots](#screenshots)
-- [/etc/lightdm/lightdm.conf](#etclightdmlightdmgtkgreeterconf)
+- [/etc/lightdm/lightdm.conf](#etclightdmlightdmconf)
 - [/etc/lightdm/lightdm-gtk-greeter.conf](#etclightdmlightdm-gtk-greeterconf)
 
 ## Installation
