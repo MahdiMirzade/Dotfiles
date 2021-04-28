@@ -27,26 +27,28 @@
 - clean: ['~']
 
 - link:
-    ~/.config/qutebrowser/config.py:
-      path: config/qutebrowser/config.py
     ~/.config/i3/config:
       path: config/i3/config
     ~/.config/i3status/config:
       path: config/i3status/config
     ~/.config/kitty/kitty.conf:
       path: config/kitty/kitty.conf
-    /usr/share/pixmaps/background.jpg:
-      path: config/wallpaper/background.jpg
-    /usr/share/pixmaps/lockscreen.png:
-      path: config/wallpaper/lockscreen.png
+    ~/.config/picom/picom.conf:
+      path: config/picom/picom.conf
+    ~/.config/qutebrowser/config.py:
+      path: config/qutebrowser/config.py
     /usr/share/icons/Dracula:
       path: config/themes/Dracula-icons
     /usr/share/themes/Dracula:
       path: config/themes/Dracula
     ~/.gtkrc-2.0:
       path: config/themes/gtkrc-2.0
-    ~/.config/picom/picom.conf:
-      path: config/picom/picom.conf
+    ~/.vimrc:
+      path: config/vim/vimrc
+    /usr/share/pixmaps/background.jpg:
+      path: config/wallpaper/background.jpg
+    /usr/share/pixmaps/lockscreen.png:
+      path: config/wallpaper/lockscreen.png
     ~/.zshrc:
       path: config/zsh/zshrc
 
