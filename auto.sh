@@ -101,7 +101,7 @@ requirements () {
         echo -n "....."
     done
     echo ""
-    pacman -Sy xorg lightdm lightdm-gtk-greeter \
+    pacman -Sy vim xorg lightdm lightdm-gtk-greeter \
         i3-gaps dmenu scrot nitrogen rofi \
         kitty zsh qutebrowser xarchiver \
         thunar gvfs thunar-archive-plugin \

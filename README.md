@@ -28,7 +28,7 @@ $ pacman -Sy
 #### Step 2: Install requirements
 This command is for installing all requirements in arch linux:
 ```
-$ pacman -S xorg lightdm lightdm-gtk-greeter \
+$ pacman -S vim xorg lightdm lightdm-gtk-greeter \
 i3-gaps dmenu scrot nitrogen rofi \
 kitty zsh qutebrowser xarchiver \
 thunar gvfs thunar-archive-plugin \
