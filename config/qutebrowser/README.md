@@ -186,7 +186,3 @@ c.tabs.padding = padding
 c.tabs.indicator.width = 1
 c.tabs.favicons.scale = 1
 ```
-
-**Short Links**
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)

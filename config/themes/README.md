@@ -18,7 +18,3 @@ $ ./config/themes/install
 > Dracola Theme is bloody :P
 
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/gtk.png" alt="GTK Pic" width="512" height="260">
-
-### Short Links
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)

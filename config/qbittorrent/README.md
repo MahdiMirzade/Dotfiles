@@ -64,7 +64,3 @@ $ rcc resources.qrc -o example.qbtheme -binary
 # resouces.qrc: list of the files
 # example.qbtheme: name of your theme
 ```
-
-### Short Links
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)

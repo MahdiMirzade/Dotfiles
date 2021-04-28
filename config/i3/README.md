@@ -118,9 +118,3 @@ order += "load"
 
 @ Enabled 'load average' module
 ```
-
-
-
-### Short Links
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)

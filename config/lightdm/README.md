@@ -64,7 +64,3 @@ position = 2%,start -4%,end
 ```
 default-user-image = /usr/share/pixmaps/archlinux-logo.png
 ```
-
-### Short Links
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)

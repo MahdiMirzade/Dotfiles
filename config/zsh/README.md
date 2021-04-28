@@ -62,7 +62,3 @@ ZSH_THEME="fwalch"
 export LANG=en_US.UTF-8
 export EDITOR='vim'
 ```
-
-### Short Links
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)

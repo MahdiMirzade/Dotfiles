@@ -5,9 +5,3 @@ This area is a part of [i3 config files](https://github.com/mahdymirzade/dotfile
 For documentation, please refer to _config/i3_.
 
 [Main Documentation](https://i3wm.org/docs/userguide.html#_configuring_i3bar)
-
-
-
-### Short Links
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)

@@ -62,8 +62,3 @@ opacity-rule = [
   "100:name *= 'mpv'"
 ];
 ```
-
-
-### Short Links
-- [Main Menu](./../../../../)
-- [Back to Config Dir](./../)
