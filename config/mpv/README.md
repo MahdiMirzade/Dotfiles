@@ -19,7 +19,7 @@ $ ./config/mpv/install
 ## ScreenShots
 > MPV is a simple media player.
 
-<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/mpv.png" alt="MPV Pic" width="512" height="341">
+<img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/mpv.png" alt="MPV Pic" width="512" height="288">
 
 ## CheatSheet
 | Key                       | Functionality                     |
