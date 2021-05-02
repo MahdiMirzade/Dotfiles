@@ -31,7 +31,7 @@ This command is for installing all requirements in arch linux:
 ```
 $ pacman -S vim xorg lightdm lightdm-gtk-greeter \
 i3-gaps dmenu scrot nitrogen rofi \
-kitty zsh qutebrowser xarchiver \
+kitty zsh qutebrowser mpv youtube-dl xarchiver \
 thunar gvfs thunar-archive-plugin \
 thunar-media-tags-plugin thunar-volman \
 pulseaudio pavucontrol picom \
@@ -84,6 +84,7 @@ I highly suggest you to take a moment and star this project It's so fun to do :)
 | Network Manager     	| [networkmanager](#network-manager)	        | BitTorrent Client     | [QBittorrent](#qbittorrent)                       |
 | Compositor            | [Picom](#picom)                               | CLI Text Editor       | [Vim](#vim)                                       |
 | Shell                 | [ZSH](#zsh)                                   | GUI Text Editor       | Soon                                              |
+| Web Server            | [NGINX](#nginx)                               | Media Player          | [MPV](#mpv)                                       |
 
 ### Xorg
 [Xorg](https://x.org) is the most popular display server.
@@ -278,7 +279,6 @@ $ pacman -S qbittorrent
 [Documentation](/config/qbittorrent)
 
 ### Vim
-<a href="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/vim.png"><img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/vim.png" alt="Vim Pic" width="400" height="220" align="right"></a>
 [Vim](https://www.vim.org) is a highly configurable text editor built to make creating and changing any kind of text very efficient.
 
 **Installation**
@@ -290,6 +290,33 @@ pacman -S vim
 $ ./config/vim/install
 ```
 [Documentation](/config/vim)
+
+### Nginx
+[Nginx](https://nginx.com) is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
+
+**Installation**
+```
+pacman -S nginx
+```
+**Configuration - Not ready**
+I am currently working on [Xgine](https://github.com/mahdymirzade/Xgine) as an Nginx-Control-Panel.<br/>
+This idea takes a lot of time and effort and is currently under developement.<br/>
+But when it's released, I plan to take it and use it as a part of this section to config local webserver.<br/>
+So stay tuned on [Xgine Github Page](https://github.com/mahdymirzade/Xgine) to get updates about it.<br/>
+Simply to do that just "watch" and "star" the repository and wait for magic to happen, Also starring and watching this repository makes you be up-to-date.
+
+### MPV
+[MPV](https://mpv.io) is a free, open source, and cross-platform media player.
+
+**Installation**
+```
+pacman -S mpv
+```
+**Configuration**
+```
+$ ./config/mpv/install
+```
+[Documentation](/config/mpv)
 
 
 ## Donate
