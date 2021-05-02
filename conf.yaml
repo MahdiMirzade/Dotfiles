@@ -34,9 +34,9 @@
     ~/.config/kitty/kitty.conf:
       path: config/kitty/kitty.conf
     ~/.config/mpv/mpv.conf:
-      path: mpv.conf
+      path: config/mpv/mpv.conf
     ~/.config/mpv/input.conf:
-      path: input.conf
+      path: config/mpv/input.conf
     ~/.config/picom/picom.conf:
       path: config/picom/picom.conf
     ~/.config/qutebrowser/config.py:
