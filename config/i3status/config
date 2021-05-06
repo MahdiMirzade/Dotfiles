@@ -75,5 +75,5 @@ volume all {
 }
 
 tztime local {
-    format = " 🕒 %I:%M %p "
+    format = " 🕒 %d %B %Y %I:%M %p "
 }
