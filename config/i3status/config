@@ -20,12 +20,12 @@ general {
     interval = 5
 }
 
-#order += "load"
+order += "load"
 order += "memory"
 order += "disk /"
-#order += "disk /home"
+order += "disk /home"
 #order += "wireless _first_"
-#order += "ethernet _first_"
+order += "ethernet _first_"
 #order += "battery all"
 order += "volume all"
 order += "tztime local"
