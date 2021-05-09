@@ -87,9 +87,9 @@ helloworld () {
     logger "green" "| |_| | (_) | |_|  _| | |  __/\__ \\"
     logger "green" "|____/ \___/ \__|_| |_|_|\___||___/"
     logger "green" ""
-    logger "blue" "Dotfiles actually means hidden files and directories."
-    logger "blue" "For example '.mahdy' is a dotfile, we name config files dotfiles,"
-    logger "blue" "Because they are mostly in '.config' directory."
+    logger "green" "Dotfiles actually means hidden files and directories."
+    logger "green" "For example '.mahdy' is a dotfile, we name config files dotfiles,"
+    logger "green" "Because they are mostly in '.config' directory."
 }
 
 # Check OS and requirements
@@ -101,7 +101,8 @@ requirements () {
         echo -n "....."
     done
     echo ""
-    pacman -Sy vim xorg lightdm lightdm-gtk-greeter \
+    logger "blue" "Installing package requirements..."
+    pacman -Sy git vim xorg lightdm lightdm-gtk-greeter \
         i3-gaps dmenu scrot nitrogen rofi \
         kitty zsh qutebrowser xarchiver \
         thunar gvfs thunar-archive-plugin \
@@ -112,6 +113,8 @@ requirements () {
         noto-fonts-emoji noto-fonts-extra pango \
         ttf-dejavu ttf-liberation ttf-hack \
         -q --needed --noconfirm --color=auto
+    logger "green" "Installed packages."
+    separator
     if [[ -e /opt/dotfiles ]]; then
         rm -rf /opt/dotfiles
         logger "red" "Removed /opt/dotfiles. Reinstalling in a minute..." "bold"
@@ -123,12 +126,20 @@ requirements () {
 }
 
 installation () {
+    logger "blue" "Cloning latest github update to /opt/dotfiles..."
     git clone https://github.com/mahdymirzade/dotfiles.git /opt/dotfiles
+    logger "green" "Cloned latest repository from github."
+    logger "blue" "Installing latest github update..."
     /opt/dotfiles/install
+    logger "green" "Installed github dotfiles."
+    logger "blue" "Enabling NetworkManager, LightDM services..."
     systemctl enable NetworkManager
     systemctl enable lightdm
-    systemctl start lightdm
+    logger "green" "Enabled NetworkManager, LightDM services."
+    logger "blue" "Starting NetworkManager, LightDM services..."
     systemctl start NetworkManager
+    systemctl start lightdm
+    logger "green" "Started NetworkManager, LightDM services."
 }
 
 main () {
