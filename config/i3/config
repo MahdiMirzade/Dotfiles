@@ -61,7 +61,7 @@ bindsym $mod+q exec "i3lock -f -t -n -i ~/.config/wallpaper/lockscreen.png"
 bindsym $mod+Shift+q kill
 
 # Run dmenu (program launcher)
-bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9' -nb '#282A36' -nf '#F8F8F2' -sb '#6272A4' -sf '#F8F8F2'"
+bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -b -i -fn 'Noto Sans:size=9' -nb '#282A36' -nf '#F8F8F2' -sb '#6272A4' -sf '#F8F8F2'"
 bindsym $mod+Shift+z exec --no-startup-id "rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Hack Reqular 9'"
 
 
@@ -124,28 +124,39 @@ bindsym $mod+a focus parent
 bindsym $mod+d focus child
 
 # Define names for workspaces (using variables to avoid repeating the names in multiple places)
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+#set $ws1  "1"
+#set $ws2  "2"
+#set $ws3  "3"
+#set $ws4  "4"
+#set $ws5  "5"
+#set $ws6  "6"
+#set $ws7  "7"
+#set $ws8  "8"
+#set $ws9  "9"
+#set $ws10 "10"
+
+set $ws1  "1:   Terminal "
+set $ws2  "2:   Network "
+set $ws3  "3:   Files "
+set $ws4  "4:   Code "
+set $ws5  "5:   Documents "
+set $ws6  "6:   Chat "
+set $ws7  "7:   Media "
+set $ws8  "8:   Design "
+set $ws9  "9:   Settings "
+set $ws10 "0: 🔒 Hidden "
 
 # Define names for workspaces (using variables to avoid repeating the names in multiple places)
-#set $ws1 "I"
-#set $ws2 "II"
-#set $ws3 "III"
-#set $ws4 "IV"
-#set $ws5 "V"
-#set $ws6 "VI"
-#set $ws7 "VII"
-#set $ws8 "VIII"
-#set $ws9 "IX"
-#set $ws10 "X"
+#set $ws1  "1: I"
+#set $ws2  "2: II"
+#set $ws3  "3: III"
+#set $ws4  "4: IV"
+#set $ws5  "5: V"
+#set $ws6  "6: VI"
+#set $ws7  "7: VII"
+#set $ws8  "8: VIII"
+#set $ws9  "9: IX"
+#set $ws10 "0: X"
 
 
 # Switch to workspace
@@ -244,5 +255,5 @@ bar {
     status_command i3status
     strip_workspace_numbers yes
     position bottom
-    height 20
+    height 25
 }
