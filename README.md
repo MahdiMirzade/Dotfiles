@@ -37,7 +37,7 @@ thunar-media-tags-plugin thunar-volman \
 pulseaudio pavucontrol picom \
 networkmanager network-manager-applet \
 noto-fonts noto-fonts-cjk \
-noto-fonts-extra pango \
+noto-fonts-emoji noto-fonts-extra pango \
 ttf-dejavu ttf-liberation ttf-hack
 ```
 
@@ -98,7 +98,7 @@ $ pacman -S xorg
 Install following packages if you are missing characters/fonts/monospace:
 ```
 $ pacman -S noto-fonts noto-fonts-cjk \
-noto-fonts-extra pango \
+noto-fonts-emoji noto-fonts-extra pango \
 ttf-dejavu ttf-liberation ttf-hack
 ```
 These packages contains chinese, japanese, korean (CJK) fonts as well.

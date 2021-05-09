@@ -109,7 +109,7 @@ requirements () {
         pulseaudio pavucontrol picom \
         networkmanager network-manager-applet \
         noto-fonts noto-fonts-cjk \
-        noto-fonts-extra pango \
+        noto-fonts-emoji noto-fonts-extra pango \
         ttf-dejavu ttf-liberation ttf-hack \
         -q --needed --noconfirm --color=auto
     if [[ -e /opt/dotfiles ]]; then
