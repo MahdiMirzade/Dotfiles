@@ -255,5 +255,5 @@ bar {
     status_command i3status
     strip_workspace_numbers yes
     position bottom
-    height 25
+    height 22
 }
