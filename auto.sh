@@ -103,15 +103,16 @@ requirements () {
     echo ""
     logger "blue" "Installing package requirements..."
     pacman -Sy git vim xorg lightdm lightdm-gtk-greeter \
-        i3-gaps dmenu scrot nitrogen rofi \
-        kitty zsh qutebrowser xarchiver \
+        i3-gaps dmenu scrot nitrogen rofi dunst sbxkb \
+        picom kitty zsh qutebrowser \
+        mpv mpd youtube-dl xarchiver \
         thunar gvfs thunar-archive-plugin \
         thunar-media-tags-plugin thunar-volman \
-        pulseaudio pavucontrol picom \
+        pulseaudio pavucontrol \
         networkmanager network-manager-applet \
         noto-fonts noto-fonts-cjk \
         noto-fonts-emoji noto-fonts-extra pango \
-        ttf-dejavu ttf-liberation ttf-hack \
+        ttf-dejavu ttf-liberation ttf-hack
         -q --needed --noconfirm --color=auto
     logger "green" "Installed packages."
     separator

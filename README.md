@@ -29,12 +29,13 @@ $ pacman -Sy
 #### Step 2: Install requirements
 This command is for installing all requirements in arch linux:
 ```
-$ pacman -S vim xorg lightdm lightdm-gtk-greeter \
-i3-gaps dmenu scrot nitrogen rofi \
-kitty zsh qutebrowser mpv youtube-dl xarchiver \
+$ pacman -S git vim xorg lightdm lightdm-gtk-greeter \
+i3-gaps dmenu scrot nitrogen rofi dunst sbxkb \
+picom kitty zsh qutebrowser \
+mpv mpd youtube-dl xarchiver \
 thunar gvfs thunar-archive-plugin \
 thunar-media-tags-plugin thunar-volman \
-pulseaudio pavucontrol picom \
+pulseaudio pavucontrol \
 networkmanager network-manager-applet \
 noto-fonts noto-fonts-cjk \
 noto-fonts-emoji noto-fonts-extra pango \
@@ -125,7 +126,8 @@ $ ./config/lightdm/install
 **Installation**
 ```
 $ pacman -S i3 dmenu \
-scrot nitrogen
+scrot nitrogen sbxkb \
+dunst
 ```
 **Configuration**
 ```
@@ -310,7 +312,7 @@ Simply to do that just "watch" and "star" the repository and wait for magic to h
 
 **Installation**
 ```
-pacman -S mpv
+pacman -S mpv mpd
 ```
 **Configuration**
 ```

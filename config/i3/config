@@ -32,10 +32,10 @@ default_border pixel 1
 exec --no-startup-id "mpd"
 exec --no-startup-id "picom"
 exec --no-startup-id "dunst"
+exec --no-startup-id "sbxkb"
 exec --no-startup-id "nm-applet"
 exec --no-startup-id "pa-applet"
 exec --no-startup-id "~/.scripts.sh cngWallpaper"
-exec --no-startup-id "xss-lock --transfer-sleep-lock -- i3lock --nofork"
 
 # Set 2nd layout
 bindsym $mod+space exec --no-startup-id "~/.scripts.sh cngKeyboard"
