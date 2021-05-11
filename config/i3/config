@@ -37,8 +37,10 @@ exec --no-startup-id "nm-applet"
 exec --no-startup-id "pa-applet"
 exec --no-startup-id "~/.scripts.sh cngWallpaper"
 
-# Set 2nd layout
+# Set second keyboard layout
 bindsym $mod+space exec --no-startup-id "~/.scripts.sh cngKeyboard"
+
+# Change workspace's name
 bindsym $mod+n exec i3-input -F 'rename workspace to %s' -P 'New name For Workspace: '
 
 # Adjust volume (PulseAudio)
