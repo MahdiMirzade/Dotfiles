@@ -19,12 +19,13 @@
 - link:
     ~/.config/i3/config:
       path: config
+    ~/.config/i3status/config:
+      path: ../i3status/config
     ~/.config/wallpaper/background.jpg:
       path: ../wallpaper/background.jpg
     ~/.config/wallpaper/locksreen.png:
       path: ../wallpaper/lockscreen.png
-    ~/.config/i3status/config:
-      path: ../i3status/config
 
 - shell:
+  - [chmod +x ~/.config/i3/i3status.sh]
   - [git submodule update --init --recursive, Installing submodules]

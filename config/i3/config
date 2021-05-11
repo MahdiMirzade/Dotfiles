@@ -20,7 +20,9 @@ client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
 client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
 
-# Set modifier, title-bar-alignment, title-bar-font(and bar{} font), window-border and maximum floating containers
+# Set modifier, title-bar-alignment,
+# title-bar-font(and bar{} font), window-border
+# and maximum floating containers
 set $mod Mod4
 title_align center
 font pango:monospace 8
@@ -31,6 +33,10 @@ exec --no-startup-id "nitrogen --set-auto --save ~/.config/wallpaper/background.
 exec --no-startup-id "xss-lock --transfer-sleep-lock -- i3lock --nofork"
 exec --no-startup-id "nm-applet"
 exec --no-startup-id "picom"
+
+# Add 2nd keyboard layout (En, Fa)
+exec --no-startup-id "setxkbmap -layout us"
+exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
 
 # Adjust volume (PulseAudio)
 set $refresh_i3status killall -SIGUSR1 i3status
