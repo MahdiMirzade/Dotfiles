@@ -29,6 +29,7 @@ order += "ethernet _first_"
 #order += "battery all"
 order += "volume all"
 order += "tztime local"
+#order += "tztime GMT"
 
 load {
     format = "   %1min "
@@ -75,5 +76,13 @@ volume all {
 }
 
 tztime local {
-    format = " 🕒 %d %B %Y %I:%M %p "
+    format = " 🕒 %time "
+    format_time = "%d %B %Y %I:%M %p"
+}
+
+tztime GMT {
+    format = " GMT %time "
+    format_time = "%I:%M %p"
+    timezone = "Etc/GMT"
+    hide_if_equals_localtime = true
 }
