@@ -29,8 +29,6 @@ $ ./config/i3/install
 > Using [i3status](https://github.com/mahdymirzade/dotfiles/tree/main/config/i3status) as panel
 <img src="https://raw.githubusercontent.com/mahdymirzade/mahdymirzade/main/assets/dotfiles/i3.status.png" alt="i3 status bar" width="512" height="200">
 
-
-
 ## CheatSheet
 > Window Management Keybinds
 
@@ -38,6 +36,7 @@ $ ./config/i3/install
 | ------------------------- | --------------------------------------------- |
 | Super                     | The Main Controller                           |
 | Super + Enter             | Run Terminal                                  |
+| Super + Space             | Change Keyboard Layout (~/.scripts.sh)        |
 | Super + Q                 | Lock Screen (i3lock)                          |
 | Super + Shift + Q         | Close Windows                                 |
 | Super + Z                 | Simple Launcher                               |
@@ -52,6 +51,7 @@ $ ./config/i3/install
 | Super + Shift + A         | Show Window on Active Workspace               |
 | Super + Shift + Space     | Toggle Floating/Tiling Mode on a Window       |
 | Super + Space             | Change Focus between Floating/Tiling windows  |
+| Super + N                 | Change Current Workspace's Name               |
 | Super + 1-9               | Switch to Workspace 1-9                       |
 | Super + Shift + 1-9       | Move Focused Window to Workspace 1-9          |
 | Super + Shift + R         | Restart i3 Window Manager                     |
@@ -63,8 +63,6 @@ $ ./config/i3/install
 | ----------------- | ------------------------------------- |
 | PrtSc             | Capturing Screen Shot *Using scrot*   |
 | Super + PrtSc     | Capturing Focused Window's Screen     |
-
-
 
 ## .config/i3/config
 I have done some extra configuration on my keyboard:
@@ -87,8 +85,6 @@ bindsym XF86AudioPlay exec --no-startup-id "mpc toggle"
 bindsym XF86AudioNext exec --no-startup-id "mpc next"
 bindsym XF86AudioPrev exec --no-startup-id "mpc prev"
 ```
-
-
 
 ## .config/i3status/config
 **Default settings:**
