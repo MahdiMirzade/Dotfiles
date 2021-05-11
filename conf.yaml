@@ -43,6 +43,8 @@
       path: config/qutebrowser/config.py
     ~/.config/rofi/config.rasi:
       path: config/rofi/config.rasi
+    ~/.scripts.sh:
+      path: config/scripts/scripts.sh
     /usr/share/icons/Dracula:
       path: config/themes/Dracula-icons
     /usr/share/themes/Dracula:

@@ -21,9 +21,11 @@
       path: config
     ~/.config/i3status/config:
       path: ../i3status/config
+    ~/.scripts.sh:
+      path: ../scripts/scripts.sh
     ~/.config/wallpaper/background.jpg:
       path: ../wallpaper/background.jpg
-    ~/.config/wallpaper/locksreen.png:
+    ~/.config/wallpaper/lockscreen.png:
       path: ../wallpaper/lockscreen.png
 
 - shell:

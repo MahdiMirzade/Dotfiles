@@ -29,14 +29,17 @@ font pango:monospace 8
 default_border pixel 1
 
 # Auto-start Section
-exec --no-startup-id "nitrogen --set-auto --save ~/.config/wallpaper/background.jpg"
-exec --no-startup-id "xss-lock --transfer-sleep-lock -- i3lock --nofork"
-exec --no-startup-id "nm-applet"
+exec --no-startup-id "mpd"
 exec --no-startup-id "picom"
+exec --no-startup-id "dunst"
+exec --no-startup-id "nm-applet"
+exec --no-startup-id "pa-applet"
+exec --no-startup-id "~/.scripts.sh cngWallpaper"
+exec --no-startup-id "xss-lock --transfer-sleep-lock -- i3lock --nofork"
 
-# Add 2nd keyboard layout (En, Fa)
-exec --no-startup-id "setxkbmap -layout us"
-exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
+# Set 2nd layout
+bindsym $mod+space exec --no-startup-id "~/.scripts.sh cngKeyboard"
+bindsym $mod+n exec i3-input -F 'rename workspace to %s' -P 'New name For Workspace: '
 
 # Adjust volume (PulseAudio)
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -120,7 +123,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # Change focus between tiling/floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
 
 # Focus the parent container
 bindsym $mod+a focus parent
@@ -243,7 +246,7 @@ gaps outer 5
 
 # i3-status
 bar {
-    bindsym button2 exec --no-startup-id "scrot"
+    bindsym button2 exec --no-startup-id "~/.scripts.sh cngWallpaper"
     colors {
         # Base colors
         background #282A36
@@ -257,7 +260,7 @@ bar {
         urgent_workspace   #FF5555 #FF5555 #F8F8F2
         binding_mode       #FF5555 #FF5555 #F8F8F2
     }
-    status_command i3status
+    status_command i3status 
     strip_workspace_numbers yes
     position bottom
     height 24
