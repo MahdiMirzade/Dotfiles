@@ -64,7 +64,6 @@ bindsym $mod+Shift+q kill
 bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -b -i -fn 'Noto Sans:size=9' -nb '#282A36' -nf '#F8F8F2' -sb '#6272A4' -sf '#F8F8F2'"
 bindsym $mod+Shift+z exec --no-startup-id "rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Hack Reqular 9'"
 
-
 # Taking screenshot (fullscreen, current window and custom shot)
 bindsym Print exec --no-startup-id "scrot"
 bindsym $mod+Print exec --no-startup-id "scrot -u"
@@ -255,5 +254,5 @@ bar {
     status_command i3status
     strip_workspace_numbers yes
     position bottom
-    height 22
+    height 24
 }
