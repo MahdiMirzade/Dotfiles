@@ -41,7 +41,7 @@ exec --no-startup-id "~/.scripts.sh cngWallpaper"
 bindsym $mod+space exec --no-startup-id "~/.scripts.sh cngKeyboard"
 
 # Change workspace's name
-bindsym $mod+n exec i3-input -F 'rename workspace to %s' -P 'New name For Workspace: '
+bindsym $mod+n exec i3-input -F 'rename workspace to %s' -P '🗚 New name For Workspace: '
 
 # Adjust volume (PulseAudio)
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -204,7 +204,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-mode "resize" {
+mode "🗔 resize" {
         # These bindings trigger as soon as you enter the resize mode
         bindsym j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
@@ -222,7 +222,7 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
-bindsym $mod+r mode "resize"
+bindsym $mod+r mode "🗔 resize"
 
 # Easily access your usable applications
 mode "applications" {
