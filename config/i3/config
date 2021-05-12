@@ -81,8 +81,8 @@ bindsym $mod+q exec "i3lock -f -t -n -i ~/.config/wallpaper/lockscreen.png"
 bindsym $mod+Shift+q kill
 
 # Run dmenu (program launcher)
-bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu= \
-"dmenu -b -i -fn 'Noto Sans:size=9' -nb '#282A36' -nf '#F8F8F2' -sb '#6272A4' -sf '#F8F8F2'"
+bindsym $mod+z exec --no-startup-id i3-dmenu-desktop \
+--dmenu="dmenu -b -i -fn 'Noto Sans:size=9' -nb '#282A36' -nf '#F8F8F2' -sb '#6272A4' -sf '#F8F8F2'"
 bindsym $mod+Shift+z exec --no-startup-id \
 "rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Hack Reqular 9'"
 
