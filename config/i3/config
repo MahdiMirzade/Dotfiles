@@ -28,6 +28,7 @@ title_align center
 font pango:monospace 8
 default_border pixel 1
 floating_maximum_size 560 x 315
+popup_during_fullscreen ignore
 
 # Auto-start Section
 exec --no-startup-id "mpd"
@@ -44,14 +45,19 @@ exec_always --no-startup-id "setxkbmap -layout us,ir"
 exec_always --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
 
 # Change workspace's name
-bindsym $mod+n exec i3-input -F 'rename workspace to %s' -P '🗚 New name For Workspace: '
+bindsym $mod+n exec i3-input -F \
+'rename workspace to %s' -P '🗚 New name For Workspace: '
 
 # Adjust volume (PulseAudio)
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status"
-bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status"
-bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status"
-bindsym XF86AudioMicMute exec --no-startup-id "pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status"
+bindsym XF86AudioRaiseVolume exec --no-startup-id \
+"pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status"
+bindsym XF86AudioLowerVolume exec --no-startup-id \
+"pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status"
+bindsym XF86AudioMute exec --no-startup-id \
+"pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status"
+bindsym XF86AudioMicMute exec --no-startup-id \
+"pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status"
 
 # Adjust brightness 
 bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 10%"
@@ -75,8 +81,10 @@ bindsym $mod+q exec "i3lock -f -t -n -i ~/.config/wallpaper/lockscreen.png"
 bindsym $mod+Shift+q kill
 
 # Run dmenu (program launcher)
-bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -b -i -fn 'Noto Sans:size=9' -nb '#282A36' -nf '#F8F8F2' -sb '#6272A4' -sf '#F8F8F2'"
-bindsym $mod+Shift+z exec --no-startup-id "rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Hack Reqular 9'"
+bindsym $mod+z exec --no-startup-id i3-dmenu-desktop --dmenu= \
+"dmenu -b -i -fn 'Noto Sans:size=9' -nb '#282A36' -nf '#F8F8F2' -sb '#6272A4' -sf '#F8F8F2'"
+bindsym $mod+Shift+z exec --no-startup-id \
+"rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Hack Reqular 9'"
 
 # Taking screenshot (fullscreen, current window and custom shot)
 bindsym Print exec --no-startup-id "scrot"
@@ -261,7 +269,8 @@ gaps outer 5
 
 # i3-status
 bar {
-    bindsym button2 exec --no-startup-id "~/.scripts.sh cngWallpaper"
+    bindsym button2 exec "scrot"
+    bindsym button3 exec --no-startup-id "~/.scripts.sh cngWallpaper"
     colors {
         # Base colors
         background #282A36
