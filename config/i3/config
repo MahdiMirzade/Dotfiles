@@ -27,20 +27,21 @@ set $mod Mod4
 title_align center
 font pango:monospace 8
 default_border pixel 1
+floating_maximum_size 560 x 315
 
 # Auto-start Section
 exec --no-startup-id "mpd"
 exec --no-startup-id "picom"
 exec --no-startup-id "dunst"
-exec --no-startup-id "sbxkb"
-exec --no-startup-id "nm-applet"
+exec_always --no-startup-id "sbxkb"
+exec_always --no-startup-id "nm-applet"
 exec --no-startup-id "pa-applet"
 exec --no-startup-id "~/.scripts.sh cngWallpaper"
 
 # Set second keyboard layout
 #bindsym $mod+space exec --no-startup-id "~/.scripts.sh cngKeyboard"
-exec --no-startup-id "setxkbmap -layout us,ir"
-exec --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
+exec_always --no-startup-id "setxkbmap -layout us,ir"
+exec_always --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
 
 # Change workspace's name
 bindsym $mod+n exec i3-input -F 'rename workspace to %s' -P '🗚 New name For Workspace: '
@@ -127,7 +128,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # Change focus between tiling/floating windows
-#bindsym $mod+space focus mode_toggle
+bindsym $mod+space focus mode_toggle
 
 # Focus the parent container
 bindsym $mod+a focus parent
