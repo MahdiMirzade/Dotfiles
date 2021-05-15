@@ -41,8 +41,8 @@ exec --no-startup-id "~/.scripts.sh cngWallpaper"
 
 # Set second keyboard layout
 #bindsym $mod+space exec --no-startup-id "~/.scripts.sh cngKeyboard"
-exec_always --no-startup-id "setxkbmap -layout us,ir"
-exec_always --no-startup-id "setxkbmap -option 'grp:alt_shift_toggle'"
+exec_always "setxkbmap -layout us,ir"
+exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
 
 # Change workspace's name
 bindsym $mod+n exec i3-input -F \
