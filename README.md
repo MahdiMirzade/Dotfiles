@@ -75,6 +75,7 @@ Now that you've finished take some rest.<br/>
 I highly suggest you to take a moment and star this project It's so fun to do :)
 
 ## Details
+[Wiki](/wiki/details)
 | Name                  | Value                         	        | Name                  | Value                                             |
 | --------------------- | --------------------------------------------- | --------------------- | ------------------------------------------------- |
 | Graphical Server      | [Xorg](#xorg)                 	        | Terminal Emulater     | [Kitty](#kitty)               	            |
