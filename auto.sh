@@ -10,5 +10,7 @@
 # This file is a part of `github.com/mahdymirzade/dofiles`.
 #
 #
-wget https://raw.githubusercontent.com/MahdyMirzade/Dotfiles/main/dot.sh
+git clone https://github.com/MahdyMirzade/Dotfiles.git /opt/dotfiles
+cd /opt/dotfiles
+chmod +x dot.sh
 ./dot.sh f

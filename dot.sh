@@ -126,7 +126,7 @@ manconfig () {
             cp -rf .config/lightdm/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
             # Vim and Zsh
             cp -rf .vimrc $confpath/.vimrc
-            cp -rf .vimrc $confpath/.zshrc
+            cp -rf .zshrc $confpath/.zshrc
         ;;
         "themes")
             cp -rf .gtk/Dracula-icons /usr/share/icons/Dracula
@@ -155,7 +155,7 @@ manconfig () {
 	    cp -rf .vimrc $confpath/.vimrc
 	;;
 	"zsh")
-	    cp -rf .vimrc $confpath/.zshrc
+	    cp -rf .zshrc $confpath/.zshrc
 	;;
         *)
             if [[ -d ".config/$1" ]]; then
