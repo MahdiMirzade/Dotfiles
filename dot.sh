@@ -17,6 +17,7 @@ logger () {
     red_bg="\e[0;101m${expand_bg}"
     green_bg="\e[0;102m${expand_bg}"
     blue_bg="\e[0;104m${expand_bg}"
+    white_bg="\e[1;47m\e[1;30m"
     red="\e[0;91m"
     green="\e[0;92m"
     blue="\e[0;94m"
@@ -25,12 +26,13 @@ logger () {
     uline="\e[4m"
     reset="\e[0m"
     format=$1
-    if [[ $format == "red" || $format == "blue" || $format == "green" ]]; then
+    if [[ $format == "red" || $format == "blue" || $format == "green" || $format == "white" ]]; then
         bgcolor="${format}_bg"
     else
         bgcolor="expand_bg"
-        if [[ $format == "" || $format == "null" || $format == "none" ]]; then
-            format="reset"
+        if [[ $format == "" || $format == "null" || $format == "none" || $format == "bold" || $format == "uline" ]]; then
+            format="white"
+            bgcolor="white_bg"
         fi
     fi
     echo -en "${reset}${!bgcolor}${bold}DOTFILES${reset}${expand_bg} "
@@ -74,7 +76,7 @@ helloworld () {
 
 # Ctrl-c & Ctrl-z handler
 ctrlc () {
-    logger "" ""
+    echo ""
     logger "red" "You have done a [Ctrl-C], performing clean up..."
     killall -s KILL -q pacman git pulseaudio > /dev/null &
     rm -rf /opt/dotfiles > /dev/null &
@@ -103,7 +105,8 @@ services () {
 }
 
 manconfig () {
-    confpath="/home/$(logname)"
+    logname=$(logname)
+    confpath="/home/$logname"
     case $1 in
         "f" | "full")
             # .config Files
@@ -166,6 +169,7 @@ manconfig () {
             fi
         ;;
     esac
+    chown -R $logname:$logname $confpath/.*
 }
 
 maninstall () {

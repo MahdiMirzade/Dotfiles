@@ -27,7 +27,7 @@ set $mod Mod4
 title_align center
 font pango:monospace 8
 default_border pixel 1
-floating_maximum_size 560 x 315
+#floating_maximum_size 560 x 315
 popup_during_fullscreen ignore
 
 # Auto-start Section
