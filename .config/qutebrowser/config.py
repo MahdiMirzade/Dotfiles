@@ -1,17 +1,3 @@
-#
-#   __  __       _         _         __  __ _                   _
-#  |  \/  | __ _| |__   __| |_   _  |  \/  (_)_ __ ______ _  __| | ___
-#  | |\/| |/ _` | '_ \ / _` | | | | | |\/| | | '__|_  / _` |/ _` |/ _ \
-#  | |  | | (_| | | | | (_| | |_| | | |  | | | |   / / (_| | (_| |  __/
-#  |_|  |_|\__,_|_| |_|\__,_|\__, | |_|  |_|_|_|  /___\__,_|\__,_|\___|
-#                            |___/
-#
-# This file is a part of `github.com/mahdymirzade/dotfiles`.
-#
-# Main reference:
-# https://qutebrowser.org/doc/help/configuring.html
-#
-#
 # Autoconfig Default Settings
 config.load_autoconfig()
 
