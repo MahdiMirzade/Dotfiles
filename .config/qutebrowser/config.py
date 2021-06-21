@@ -40,6 +40,7 @@ c.content.headers.user_agent = (
     " Chrome/80.0.3987.163 Safari/537.36"
 )
 c.statusbar.widgets = ["keypress", "progress", "url", "scroll"]
+c.content.javascript.can_access_clipboard = True
 
 # Set Colors
 palette = {
