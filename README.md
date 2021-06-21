@@ -20,4 +20,4 @@ I put some time on this project and I really don't think it has any values but I
 
 Made with <3 by **Mahdy Mirzade**
 
-Yell at me: [me@mahdy.fun](mailto:me@mahdy.fun)
+Yell at me: [me@mahdym.ir](mailto:me@mahdym.ir)
